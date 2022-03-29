@@ -13,6 +13,11 @@ module load bioinfo-tools trimmomatic
 
 #Apply trimmomatic to untrimmed RNA
 #command java -jar <path to trimmomatic.jar> PE [-threads <threads] [-phred33 | -phred64] [-trimlog <logFile>] >] [-basein <inputBase> | <input 1> <input 2>] [-baseout <outputBase> | <unpaired output 1> <paired output 2> <unpaired output 2> <step 1> ...
-java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE
+java -jar /sw/apps/bioinfo/trimmomatic/0.36/milou/trimmomatic-0.36.jar PE \ 
+~/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.1.fastq.gz \
+~/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.2.fastq.gz \
+RNA_trim_D1_1.paired.trimmed.fastq.gz \
+RNA_trim_D1_2.paired.trimmed.fastq.gz \
+ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 MINLEN:36
 #Check quality to trimmed RNA
 

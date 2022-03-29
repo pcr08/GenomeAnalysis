@@ -1,0 +1,5 @@
+Today's lab:
+
+- Finish project plan
+- Connect github with UPPMAX through an SSH Key and local computer with GitHub Desktop
+- Start DNA QC

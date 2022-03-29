@@ -2,4 +2,6 @@ Today's lab:
 
 - Finish project plan
 - Connect github with UPPMAX through an SSH Key and local computer with GitHub Desktop
-- Start DNA QC
+- Start DNA/RNA QC
+	preprocessing_data.job -- QC of trimmed DNA and untrimmed RNA
+	rna_trim_QC.job -- trimm RNA and QC of trimmed RNA

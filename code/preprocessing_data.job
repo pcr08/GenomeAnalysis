@@ -1,0 +1,25 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J qualitycheck
+#SBATCH -t 1:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for running both quality check of trimmed DNA and not trimmed RNA: we need FastQC tool
+#load the necessary modules
+module load bioinfo-tools FastQC
+
+#Check quality in trimmed DNA
+#for file in /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/*
+#do
+#fastqc $file -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/DNA_fastqc
+#done
+
+#Check quality for untrimmed RNA
+for file in /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/RNA_untrimmed/*
+do
+fastqc $file -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw
+done
+

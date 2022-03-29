@@ -1,0 +1,18 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J qualitycheck
+#SBATCH -t 15:00 --qos=short
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for running both quality check of trimmed DNA and not trimmed RNA: we need FastQC tool
+#load the necessary modules
+module load bioinfo-tools trimmomatic
+
+#Apply trimmomatic to untrimmed RNA
+#command java -jar <path to trimmomatic.jar> PE [-threads <threads] [-phred33 | -phred64] [-trimlog <logFile>] >] [-basein <inputBase> | <input 1> <input 2>] [-baseout <outputBase> | <unpaired output 1> <paired output 2> <unpaired output 2> <step 1> ...
+java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE
+#Check quality to trimmed RNA
+

@@ -11,4 +11,4 @@
 module load bioinfo-tools MultiQC
 #cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/MultiQC
 #python setup.py install
-multiqc /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_trimmed/*
+multiqc /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/*

@@ -1,0 +1,5 @@
+Today's lab:
+
+- Finish rna_trim_QC.job
+- Created multiQC.job for getting a unique html report for different samples (RNA)
+- Problems with github to push -- it detects large files and even if I created .gitignore it stills gives problems -- NOT FIXED

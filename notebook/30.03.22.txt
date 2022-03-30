@@ -3,3 +3,6 @@ Today's lab:
 - Finish rna_trim_QC.job
 - Created multiQC.job for getting a unique html report for different samples (RNA)
 - Problems with github to push -- it detects large files and even if I created .gitignore it stills gives problems -- NOT FIXED
+
+22.30h
+- Problem with github fixed (I needed to delete everything from uppmax and clone, and run it again.

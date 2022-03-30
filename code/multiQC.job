@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J multiqc
+#SBATCH -t 1:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#git clone https://github.com/ewels/MultiQC.git
+module load bioinfo-tools MultiQC
+#cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/MultiQC
+#python setup.py install
+multiqc /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_trimmed/*

@@ -7,7 +7,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
 
-#script for running both quality check of trimmed DNA and not trimmed RNA: we need FastQC tool
+#script for assembly DNA
 #load the necessary modules
 module load bioinfo-tools megahit 
 

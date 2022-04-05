@@ -1,0 +1,360 @@
+/sw/bioinfo/quast/5.0.2/rackham/bin/metaquast.py -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.59.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2022-04-05 09:38:40
+
+Logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/metaquast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+Contigs:
+  Pre-processing...
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa ==> final.contigs
+
+No references are provided, starting to search for reference genomes in SILVA 16S rRNA database and to download them from NCBI...
+
+2022-04-05 09:38:48
+Running BlastN..
+  processing final.contigs
+/home/pcr98/.quast/blast/blastn -query /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa \
+-db /home/pcr98/.quast/silva/silva.123.db -outfmt 7 -num_threads 4 > /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/blast.res_final-contigs \
+2>> /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/blast.err
+  BLAST results for final.contigs are saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/blast.res_final-contigs...
+
+
+2022-04-05 09:55:00
+Trying to download found references from NCBI. Totally 50 organisms to try.
+  unidentified_marine_bacterioplankton            | not found in the NCBI database
+  unidentified_marine_bacterioplankton was not found in NCBI database, trying to download the next best match
+  Gaiella_sp._EBR4-R2                             | not found in the NCBI database
+  Gaiella_sp._EBR4-R2 was not found in NCBI database, trying to download the next best match
+  Conexibacter_woesei_Iso977N                     | successfully downloaded (total 1, 49 more to go)
+  unidentified_eubacterium_LD29                   | not found in the NCBI database
+  unidentified_eubacterium_LD29 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_136(2011)    | not found in the NCBI database
+  bacterium_enrichment_culture_clone_136(2011) was not found in NCBI database, trying to download the next best match
+  bacterium_Ellin511                              | not found in the NCBI database
+  bacterium_Ellin511 was not found in NCBI database, trying to download the next best match
+  Verrucomicrobia_bacterium_WY51                  | not found in the NCBI database
+  sulfur-oxidizing_bacterium_OBII5                | not found in the NCBI database
+  sulfur-oxidizing_bacterium_OBII5 was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_CBNH_1102_HA1_MIDDLE_5 | not found in the NCBI database
+  bacterium_enrichment_culture_clone_CBNH_1102_HA1_MIDDLE_5 was not found in NCBI database, trying to download the next best match
+  Alcanivorax_pacificus_W11-5                     | successfully downloaded (total 2, 47 more to go)
+  saltmarsh_clone_LCP-89                          | not found in the NCBI database
+  saltmarsh_clone_LCP-89 was not found in NCBI database, trying to download the next best match
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO18 | not found in the NCBI database
+  iron-reducing_bacterium_enrichment_culture_clone_HN-HFO18 was not found in NCBI database, trying to download the next best match
+  Desulfitibacter_alkalitolerans_DSM_16504        | successfully downloaded (total 3, 46 more to go)
+  mine_drainage_metagenome                        | successfully downloaded (total 4, 45 more to go)
+  marine_metagenome                               | successfully downloaded (total 5, 44 more to go)
+  marine_gamma_proteobacterium_HTCC2080           | successfully downloaded (total 6, 43 more to go)
+  magnetic_coccus_MP17                            | not found in the NCBI database
+  magnetic_coccus_MP17 was not found in NCBI database, trying to download the next best match
+  Aurantimonas_manganoxydans_SI85-9A1             | successfully downloaded (total 7, 42 more to go)
+  gamma_proteobacterium_SCGC_AB-629-P17           | successfully downloaded (total 8, 41 more to go)
+bioreactor metagenome has too fragmented reference genome! It will not be downloaded.
+  bioreactor_metagenome                           | not found in the NCBI database
+  bioreactor_metagenome was not found in NCBI database, trying to download the next best match
+  bacterium_enrichment_culture_clone_AOM-SR-B3    | not found in the NCBI database
+  bacterium_enrichment_culture_clone_AOM-SR-B3 was not found in NCBI database, trying to download the next best match
+wastewater metagenome has too fragmented reference genome! It will not be downloaded.
+  wastewater_metagenome                           | not found in the NCBI database
+  wastewater_metagenome was not found in NCBI database, trying to download the next best match
+  denitrifying_bacterium_enrichment_culture_clone_NOB_2_E8 | not found in the NCBI database
+  benzene_mineralizing_consortium_clone_SB-5      | not found in the NCBI database
+  benzene_mineralizing_consortium_clone_SB-5 was not found in NCBI database, trying to download the next best match
+  iron-reducing_bacterium_enrichment_culture_clone_HN105 | not found in the NCBI database
+  iron-reducing_bacterium_enrichment_culture_clone_HN105 was not found in NCBI database, trying to download the next best match
+  Owenweeksia_hongkongensis_DSM_17368             | successfully downloaded (total 9, 39 more to go)
+  bacterium_rJ7                                   | not found in the NCBI database
+  bacterium_rJ7 was not found in NCBI database, trying to download the next best match
+  bacterium_rJ14                                  | not found in the NCBI database
+  bacterium_rJ14 was not found in NCBI database, trying to download the next best match
+  actinobacterium_GP-6                            | not found in the NCBI database
+  actinobacterium_GP-6 was not found in NCBI database, trying to download the next best match
+  Actinomycetales_bacterium_GP-5                  | not found in the NCBI database
+  bacterium_enrichment_culture_clone_69(2013)     | not found in the NCBI database
+  bacterium_enrichment_culture_clone_69(2013) was not found in NCBI database, trying to download the next best match
+  Marispirillum_indicum                           | not found in the NCBI database
+  Marispirillum_indicum was not found in NCBI database, trying to download the next best match
+  alpha_proteobacterium_RW12                      | not found in the NCBI database
+  alpha_proteobacterium_RW12 was not found in NCBI database, trying to download the next best match
+  Methyloligella_solikamskensis                   | not found in the NCBI database
+  bacterium_WH3-1                                 | not found in the NCBI database
+  bacterium_WH3-1 was not found in NCBI database, trying to download the next best match
+  Gracilibacteria_bacterium_JGI_0000069-P22       | successfully downloaded (total 10, 36 more to go)
+  bacterium_SH1-3                                 | not found in the NCBI database
+  bacterium_SH1-3 was not found in NCBI database, trying to download the next best match
+  Fluviicola_taffensis_DSM_16823                  | successfully downloaded (total 11, 35 more to go)
+  bacterium_Ellin6543                             | not found in the NCBI database
+  bacterium_Ellin6543 was not found in NCBI database, trying to download the next best match
+  Dehalococcoides_sp._BHI80-15                    | not found in the NCBI database
+  Dehalococcoides_sp._BHI80-15 was not found in NCBI database, trying to download the next best match
+  bacterium_Ellin6519                             | not found in the NCBI database
+  bacterium_Ellin6519 was not found in NCBI database, trying to download the next best match
+  unidentified_green_non-sulfur_bacterium_OPB12   | not found in the NCBI database
+  bacterium_Ellin5273                             | not found in the NCBI database
+  bacterium_Ellin5273 was not found in NCBI database, trying to download the next best match
+  bacterium_Ellin5247                             | not found in the NCBI database
+  alpha_proteobacterium_BAL199                    | successfully downloaded (total 12, 32 more to go)
+  actinobacterium_BGR_88                          | not found in the NCBI database
+  actinobacterium_BGR_88 was not found in NCBI database, trying to download the next best match
+  Ilumatobacter_coccineus_YM16-304                | successfully downloaded (total 13, 31 more to go)
+  Vesicomya_sp._mt-II_symbiont                    | not found in the NCBI database
+  Vesicomya_sp._mt-II_symbiont was not found in NCBI database, trying to download the next best match
+  Calyptogena_sp._Florida_gill_symbiont           | not found in the NCBI database
+  Calyptogena_sp._Florida_gill_symbiont was not found in NCBI database, trying to download the next best match
+  bacterium_symbiont_of_Laubiericoncha_chuni      | not found in the NCBI database
+  bacterium_symbiont_of_Laubiericoncha_chuni was not found in NCBI database, trying to download the next best match
+  endosymbiont_of_Ridgeia_piscesae                | successfully downloaded (total 14, 30 more to go)
+  Ulvibacter_litoralis                            | successfully downloaded (total 15, 29 more to go)
+  Thiohalobacter_thiocyanaticus                   | successfully downloaded (total 16, 28 more to go)
+  Thioalkalivibrio_sulfidiphilus_HL-EbGr7         | successfully downloaded (total 17, 27 more to go)
+  Thioalkalivibrio_sp._ALJ17                      | successfully downloaded (total 18, 26 more to go)
+  Tenacibaculum_sp._KYW_576                       | not found in the NCBI database
+  Tenacibaculum_sp._KYW_576 was not found in NCBI database, trying to download the next best match
+  Tenacibaculum_skagerrakense                     | successfully downloaded (total 19, 25 more to go)
+  Syntrophus_aciditrophicus                       | successfully downloaded (total 20, 24 more to go)
+  Synechococcus_sp._KORDI-49                      | successfully downloaded (total 21, 23 more to go)
+  Sulfitobacter_sp._NAS-14.1                      | successfully downloaded (total 22, 22 more to go)
+  Streptomyces_cyaneogriseus_subsp._noncyanogenus | successfully downloaded (total 23, 21 more to go)
+  Stenotrophomonas_sp._canine_oral_taxon_224      | not found in the NCBI database
+  Stenotrophomonas_sp._canine_oral_taxon_224 was not found in NCBI database, trying to download the next best match
+  Xanthomonas_citri_subsp._malvacearum            | successfully downloaded (total 24, 20 more to go)
+  Sporosarcina_sp._EUR3_2.2.2                     | not found in the NCBI database
+  Sporosarcina_sp._EUR3_2.2.2 was not found in NCBI database, trying to download the next best match
+  Paenisporosarcina_macmurdoensis                 | not found in the NCBI database
+  Paenisporosarcina_macmurdoensis was not found in NCBI database, trying to download the next best match
+  Sporosarcina_sp._3061                           | not found in the NCBI database
+  Sphingomonas_sp._JEM-1                          | not found in the NCBI database
+  Sphingomonas_sp._JEM-1 was not found in NCBI database, trying to download the next best match
+  Sphingobium_fuliginis                           | successfully downloaded (total 25, 18 more to go)
+  Sinobacterium_caligoides                        | successfully downloaded (total 26, 17 more to go)
+  Simiduia_sp._J-MY2                              | successfully downloaded (total 27, 16 more to go)
+  Shewanella_amazonensis_SB2B                     | successfully downloaded (total 28, 15 more to go)
+  Roseobacter_sp._SK209-2-6                       | successfully downloaded (total 29, 14 more to go)
+  Rhodopirellula_sp._SM50                         | successfully downloaded (total 30, 13 more to go)
+  Rhodopirellula_lusitana                         | not found in the NCBI database
+  Pseudoruegeria_aquimaris                        | successfully downloaded (total 31, 11 more to go)
+  Porticoccus_hydrocarbonoclasticus_MCTG13d       | successfully downloaded (total 32, 10 more to go)
+  Pelobacter_sp._AOP6                             | not found in the NCBI database
+  Pelobacter_sp._AOP6 was not found in NCBI database, trying to download the next best match
+  Desulfuromonas_palmitatis                       | not found in the NCBI database
+  Desulfuromonas_palmitatis was not found in NCBI database, trying to download the next best match
+  Desulfuromonas_michiganensis                    | not found in the NCBI database
+  Desulfuromonas_michiganensis was not found in NCBI database, trying to download the next best match
+  Desulfuromonas_thiophila                        | successfully downloaded (total 33, 9 more to go)
+  Paracoccus_aminophilus                          | successfully downloaded (total 34, 8 more to go)
+  Oceanicola_granulosus_HTCC2516                  | successfully downloaded (total 35, 7 more to go)
+  Nocardioides_albus                              | successfully downloaded (total 36, 6 more to go)
+  Nitrospina_sp._SCGC_AAA288-L16                  | successfully downloaded (total 37, 5 more to go)
+  Nitrospina_sp._347                              | not found in the NCBI database
+  Nitrospina_sp._347 was not found in NCBI database, trying to download the next best match
+  Nitrospina_gracilis                             | successfully downloaded (total 38, 4 more to go)
+  Nitrospina_sp._3005                             | not found in the NCBI database
+  Nitrospina_sp._3005 was not found in NCBI database, trying to download the next best match
+  Gaiella_sp._EBR4-R2                             | not found in the NCBI database
+  Gaiella_sp._EBR4-R2 was not found in NCBI database, trying to download the next best match
+  Gaiella_occulta                                 | successfully downloaded (total 39, 3 more to go)
+  Nitrospina_gracilis_3                           | not found in the NCBI database
+  Nitrospina_gracilis_3 was not found in NCBI database, trying to download the next best match
+  Nitrospina_sp._enrichment_culture_clone_Cb12    | not found in the NCBI database
+  Neisseria_sp._CSL_7565                          | successfully downloaded (total 40, 1 more to go)
+  Mollicutes_bacterium_HR1                        | successfully downloaded (total 41, 0 more to go)
+
+Downloaded reference(s):
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Alcanivorax_pacificus_W11_5.fasta ==> Alcanivorax_pacificus_W11_5
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Aurantimonas_manganoxydans_SI85_9A1.fasta ==> Aurantimonas_manganoxydans_SI85_9A1
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Conexibacter_woesei_Iso977N.fasta ==> Conexibacter_woesei_Iso977N
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Desulfitibacter_alkalitolerans_DSM_16504.fasta ==> Desulfitibacter_alkalitolerans_DSM_16504
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Desulfuromonas_thiophila.fasta ==> Desulfuromonas_thiophila
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Fluviicola_taffensis_DSM_16823.fasta ==> Fluviicola_taffensis_DSM_16823
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Gaiella_occulta.fasta ==> Gaiella_occulta
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Gracilibacteria_bacterium_JGI_0000069_P22.fasta ==> Gracilibacteria_bacterium_JGI_0000069_P22
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Ilumatobacter_coccineus_YM16_304.fasta ==> Ilumatobacter_coccineus_YM16_304
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Mollicutes_bacterium_HR1.fasta ==> Mollicutes_bacterium_HR1
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Neisseria_sp._CSL_7565.fasta ==> Neisseria_sp._CSL_7565
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Nitrospina_gracilis.fasta ==> Nitrospina_gracilis
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Nitrospina_sp._SCGC_AAA288_L16.fasta ==> Nitrospina_sp._SCGC_AAA288_L16
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Nocardioides_albus.fasta ==> Nocardioides_albus
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Oceanicola_granulosus_HTCC2516.fasta ==> Oceanicola_granulosus_HTCC2516
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Owenweeksia_hongkongensis_DSM_17368.fasta ==> Owenweeksia_hongkongensis_DSM_17368
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Paracoccus_aminophilus.fasta ==> Paracoccus_aminophilus
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Porticoccus_hydrocarbonoclasticus_MCTG13d.fasta ==> Porticoccus_hydrocarbonoclasticus_MCTG13d
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Pseudoruegeria_aquimaris.fasta ==> Pseudoruegeria_aquimaris
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Rhodopirellula_sp._SM50.fasta ==> Rhodopirellula_sp._SM50
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Roseobacter_sp._SK209_2_6.fasta ==> Roseobacter_sp._SK209_2_6
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Shewanella_amazonensis_SB2B.fasta ==> Shewanella_amazonensis_SB2B
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Simiduia_sp._J_MY2.fasta ==> Simiduia_sp._J_MY2
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Sinobacterium_caligoides.fasta ==> Sinobacterium_caligoides
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Sphingobium_fuliginis.fasta ==> Sphingobium_fuliginis
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Streptomyces_cyaneogriseus_subsp._noncyanogenus.fasta ==> Streptomyces_cyaneogriseus_subsp._noncyanogenus
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Sulfitobacter_sp._NAS_14.1.fasta ==> Sulfitobacter_sp._NAS_14.1
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Synechococcus_sp._KORDI_49.fasta ==> Synechococcus_sp._KORDI_49
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Syntrophus_aciditrophicus.fasta ==> Syntrophus_aciditrophicus
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Tenacibaculum_skagerrakense.fasta ==> Tenacibaculum_skagerrakense
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Thioalkalivibrio_sp._ALJ17.fasta ==> Thioalkalivibrio_sp._ALJ17
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Thioalkalivibrio_sulfidiphilus_HL_EbGr7.fasta ==> Thioalkalivibrio_sulfidiphilus_HL_EbGr7
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Thiohalobacter_thiocyanaticus.fasta ==> Thiohalobacter_thiocyanaticus
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Ulvibacter_litoralis.fasta ==> Ulvibacter_litoralis
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/Xanthomonas_citri_subsp._malvacearum.fasta ==> Xanthomonas_citri_subsp._malvacearum
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/alpha_proteobacterium_BAL199.fasta ==> alpha_proteobacterium_BAL199
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/endosymbiont_of_Ridgeia_piscesae.fasta ==> endosymbiont_of_Ridgeia_piscesae
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/gamma_proteobacterium_SCGC_AB_629_P17.fasta ==> gamma_proteobacterium_SCGC_AB_629_P17
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/marine_gamma_proteobacterium_HTCC2080.fasta ==> marine_gamma_proteobacterium_HTCC2080
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/marine_metagenome.fasta ==> marine_metagenome
+  /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/quast_downloaded_references/mine_drainage_metagenome.fasta ==> mine_drainage_metagenome
+  All references were combined in combined_reference.fasta
+
+Starting quast.py for the combined reference...
+(logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/combined_reference/quast.log)
+
+Excluding downloaded references with low genome fraction from further analysis..
+All downloaded references have low genome fraction. Nothing was excluded for now.
+
+Partitioning contigs into bins aligned to each reference..
+  processing final.contigs
+
+Run QUAST on different references in parallel..
+
+Starting quast.py for the contigs aligned to Aurantimonas_manganoxydans_SI85_9A1... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Aurantimonas_manganoxydans_SI85_9A1/quast.log)
+
+Starting quast.py for the contigs aligned to Conexibacter_woesei_Iso977N... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Conexibacter_woesei_Iso977N/quast.log)
+
+Starting quast.py for the contigs aligned to Alcanivorax_pacificus_W11_5... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Alcanivorax_pacificus_W11_5/quast.log)
+
+Starting quast.py for the contigs aligned to Desulfitibacter_alkalitolerans_DSM_16504... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Desulfitibacter_alkalitolerans_DSM_16504/quast.log)
+
+Starting quast.py for the contigs aligned to Desulfuromonas_thiophila... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Desulfuromonas_thiophila/quast.log)
+
+Starting quast.py for the contigs aligned to Fluviicola_taffensis_DSM_16823... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Fluviicola_taffensis_DSM_16823/quast.log)
+
+Starting quast.py for the contigs aligned to Gaiella_occulta... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Gaiella_occulta/quast.log)
+
+Starting quast.py for the contigs aligned to Gracilibacteria_bacterium_JGI_0000069_P22... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Gracilibacteria_bacterium_JGI_0000069_P22/quast.log)
+
+Starting quast.py for the contigs aligned to Ilumatobacter_coccineus_YM16_304... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Ilumatobacter_coccineus_YM16_304/quast.log)
+
+Starting quast.py for the contigs aligned to Mollicutes_bacterium_HR1... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Mollicutes_bacterium_HR1/quast.log)
+
+Starting quast.py for the contigs aligned to Neisseria_sp._CSL_7565... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Neisseria_sp._CSL_7565/quast.log)
+
+Starting quast.py for the contigs aligned to Nitrospina_gracilis... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Nitrospina_gracilis/quast.log)
+
+Starting quast.py for the contigs aligned to Nitrospina_sp._SCGC_AAA288_L16... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Nitrospina_sp._SCGC_AAA288_L16/quast.log)
+
+Starting quast.py for the contigs aligned to Nocardioides_albus... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Nocardioides_albus/quast.log)
+
+Starting quast.py for the contigs aligned to Oceanicola_granulosus_HTCC2516... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Oceanicola_granulosus_HTCC2516/quast.log)
+
+Starting quast.py for the contigs aligned to Owenweeksia_hongkongensis_DSM_17368... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Owenweeksia_hongkongensis_DSM_17368/quast.log)
+
+Starting quast.py for the contigs aligned to Paracoccus_aminophilus... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Paracoccus_aminophilus/quast.log)
+
+Starting quast.py for the contigs aligned to Porticoccus_hydrocarbonoclasticus_MCTG13d... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Porticoccus_hydrocarbonoclasticus_MCTG13d/quast.log)
+
+Starting quast.py for the contigs aligned to Pseudoruegeria_aquimaris... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Pseudoruegeria_aquimaris/quast.log)
+
+Starting quast.py for the contigs aligned to Rhodopirellula_sp._SM50... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Rhodopirellula_sp._SM50/quast.log)
+
+Starting quast.py for the contigs aligned to Roseobacter_sp._SK209_2_6... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Roseobacter_sp._SK209_2_6/quast.log)
+
+Starting quast.py for the contigs aligned to Shewanella_amazonensis_SB2B... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Shewanella_amazonensis_SB2B/quast.log)
+
+Starting quast.py for the contigs aligned to Simiduia_sp._J_MY2... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Simiduia_sp._J_MY2/quast.log)
+
+Starting quast.py for the contigs aligned to Sinobacterium_caligoides... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Sinobacterium_caligoides/quast.log)
+
+Starting quast.py for the contigs aligned to Sphingobium_fuliginis... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Sphingobium_fuliginis/quast.log)
+
+Starting quast.py for the contigs aligned to Streptomyces_cyaneogriseus_subsp._noncyanogenus... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Streptomyces_cyaneogriseus_subsp._noncyanogenus/quast.log)
+
+Starting quast.py for the contigs aligned to Sulfitobacter_sp._NAS_14.1... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Sulfitobacter_sp._NAS_14.1/quast.log)
+
+Starting quast.py for the contigs aligned to Synechococcus_sp._KORDI_49... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Synechococcus_sp._KORDI_49/quast.log)
+
+Starting quast.py for the contigs aligned to Syntrophus_aciditrophicus... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Syntrophus_aciditrophicus/quast.log)
+
+Starting quast.py for the contigs aligned to Tenacibaculum_skagerrakense... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Tenacibaculum_skagerrakense/quast.log)
+
+Starting quast.py for the contigs aligned to Thioalkalivibrio_sp._ALJ17... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Thioalkalivibrio_sp._ALJ17/quast.log)
+
+Starting quast.py for the contigs aligned to Thioalkalivibrio_sulfidiphilus_HL_EbGr7... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Thioalkalivibrio_sulfidiphilus_HL_EbGr7/quast.log)
+
+Starting quast.py for the contigs aligned to Thiohalobacter_thiocyanaticus... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Thiohalobacter_thiocyanaticus/quast.log)
+
+Starting quast.py for the contigs aligned to Ulvibacter_litoralis... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Ulvibacter_litoralis/quast.log)
+
+Starting quast.py for the contigs aligned to Xanthomonas_citri_subsp._malvacearum... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/Xanthomonas_citri_subsp._malvacearum/quast.log)
+
+Starting quast.py for the contigs aligned to alpha_proteobacterium_BAL199... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/alpha_proteobacterium_BAL199/quast.log)
+
+Starting quast.py for the contigs aligned to endosymbiont_of_Ridgeia_piscesae... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/endosymbiont_of_Ridgeia_piscesae/quast.log)
+
+Starting quast.py for the contigs aligned to gamma_proteobacterium_SCGC_AB_629_P17... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/gamma_proteobacterium_SCGC_AB_629_P17/quast.log)
+
+Starting quast.py for the contigs aligned to marine_gamma_proteobacterium_HTCC2080... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/marine_gamma_proteobacterium_HTCC2080/quast.log)
+
+Starting quast.py for the contigs aligned to marine_metagenome... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/runs_per_reference/marine_metagenome/quast.log)
+
+No contigs were aligned to the reference mine_drainage_metagenome, skipping..
+
+Starting quast.py for the contigs not aligned anywhere... (logging to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/not_aligned/quast.log)
+
+2022-04-05 10:26:40
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/num_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Total_length_(ge_1000_bp).pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Total_length_(ge_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Total_length_(ge_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/num_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for final.contigs...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/final-contigs_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/num_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/num_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/num_Ns_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Genome_fraction.pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/Duplication_ratio.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/PDF/NGA50.pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/summary/
+  Icarus (contig browser) is saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/icarus.html
+  Drawing interactive Krona plots...
+  Krona chart for final.contigs is saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/krona_charts/final.contigs_taxonomy_chart.html
+  Extended version of HTML-report (for all references and assemblies) is saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/report.html
+
+MetaQUAST finished.
+  Log is saved to /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/assembly/D3_eval/metaquast.log
+
+Finished: 2022-04-05 10:26:54
+Elapsed time: 0:48:14.536795
+Total NOTICEs: 45; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,20 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J binning
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for assembly DNA
+#load the necessary modules
+module load bioinfo-tools MetaBat
+
+#runMetaBat.sh <options> assembly.fasta sample1.bam [sample2.bam ...]
+# -i input -o output -t number of threads to use -v verbose output
+metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D1/assembly_output_D1/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/ -t 2 -v
+metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/ -t 2 -v
+
+
+

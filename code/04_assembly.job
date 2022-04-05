@@ -1,0 +1,21 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J assembly
+#SBATCH -t 15:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for assembly DNA
+#load the necessary modules
+module load bioinfo-tools megahit 
+
+#megahit [options] {-1 <pe1> -2 <pe2> | --12 <pe12> | -r <se>} [-o <out_dir>]
+#paper parameters:  -mink 65 -maxk 105 -step 10
+# --kmin-1pass to reduce memory usage or it will crash in UPPMAX
+#assembly for sample DNA D1
+megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass -1 /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D1/assembly_output_D1 2> /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D1/D1_error #if there is error then redirect to D1_error
+
+#assembly for sample DNA D3
+megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass -1 /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3 2> /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/D3_error #if there is error then redirect to D3_error

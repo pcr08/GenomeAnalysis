@@ -8,8 +8,28 @@
 #SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
 
 #script for quality of assembly
+#prepare the analysis
+#CheckM expects to be able to write to its local database directories, so you must install your own copy
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output
+mkdir CheckM_data
+cd CheckM_data
 #load the necessary modules
 module load bioinfo-tools CheckM/1.1.3
+
+#Download the data. The most recent data version as of this writing is 2015_01_16 from 2015/01/16
+cp -av $CHECKM_DATA/checkm_data_2015_01_16.tar.gz .
+
+#Unpack it into its own subdirectory
+mkdir 2015_01_16
+cd 2015_01_16
+tar xzf ../checkm_data_2015_01_16.tar.gz
+
+#tell CheckM about the data location
+checkm data setRoot $PWD
+
+#start the analysis
+#Place bins in the reference genome tree --> checkm tree <bin folder> <output folder>
+checkm tree /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/
 
 
 

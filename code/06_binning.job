@@ -13,8 +13,8 @@ module load bioinfo-tools MetaBat
 
 #runMetaBat.sh <options> assembly.fasta sample1.bam [sample2.bam ...]
 # -i input -o output -t number of threads to use -v verbose output
-metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D1/assembly_output_D1/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/ -t 2 -v
-metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/ -t 2 -v
+metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D1/assembly_output_D1/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1 -t 2 -v
+metabat -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/assembly/D3/assembly_output_D3/final.contigs.fa -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3 -t 2 -v
 
 
 

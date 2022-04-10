@@ -1,0 +1,3 @@
+
+- Create a script to check the quality of binning wiht CheckM
+- Try to run the script but it says "bin_qa_plot" doesn't exist while in the wiki it is available -- still with problems

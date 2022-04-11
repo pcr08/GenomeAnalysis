@@ -12,10 +12,10 @@
 module load bioinfo-tools FastQC
 
 #Check quality in trimmed DNA
-#for file in /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/*
-#do
-#fastqc $file -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/DNA_fastqc
-#done
+for file in /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/DNA_trimmed/*
+do
+fastqc $file -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/DNA_fastqc
+done
 
 #Check quality for untrimmed RNA
 for file in /home/pcr98/GenomeAnalysis/GenomeAnalysis/data/raw_data/RNA_untrimmed/*

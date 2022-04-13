@@ -1,5 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR4342137.1	/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/SRR4342137.1_fastqc.zip
-FastQC	all_sections	SRR4342137.2	/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/SRR4342137.2_fastqc.zip
-FastQC	all_sections	SRR4342139.1	/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/SRR4342139.1_fastqc.zip
-FastQC	all_sections	SRR4342139.2	/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/SRR4342139.2_fastqc.zip

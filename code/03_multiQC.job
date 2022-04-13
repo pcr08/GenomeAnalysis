@@ -11,4 +11,4 @@
 module load bioinfo-tools MultiQC
 
 #run multiqc for both trimmed and untrimmed RNA samples
-multiqc -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_fastqc_trimmed/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/ -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/multiQC/
+multiqc /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_fastqc_trimmed/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/preprocessing/RNA_fastqc_raw/ -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/multiQC/

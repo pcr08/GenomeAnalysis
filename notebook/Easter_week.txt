@@ -1,0 +1,7 @@
+I have created and runned the following scripts:
+- 06_binning.job -- to run binning in my assembly
+- 07_bineval.job -- to run binning evaluation in my binning output
+- 08_structannotation.job -- to run structure annotation in my bins
+- 09_functannotation.job -- to run functional annontation in my bins
+- 09_phylogenicreconst.job -- to run a phylogenetic analysis in my bins -- STILL NOT WORKING, PROBLEMS
+- 11.normalizeassembly.job -- to get a better binning classification, normalization before with bwa (align contigs to trimmed DNA)

@@ -1,0 +1,4 @@
+The following scripts have been created and runned:
+- 12.normalizebineval.job -- to do the evaluation of normalized bins
+- 13.normalizestrucannot.job -- to get the structural annotation of normalized bins
+- 14.normalizefunctannot.job -- to get the functional annotation of normalized bins

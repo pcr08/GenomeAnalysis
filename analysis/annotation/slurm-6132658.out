@@ -1,0 +1,677 @@
+EggNOG data 5.0 available at /sw/data/uppnex/eggNOG/5.0
+core.44198
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i core.44198 -o core.44198 --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/core.44198 --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/core.44198.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+core.47838
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i core.47838 -o core.47838 --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/core.47838 --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/core.47838.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line seems to be blank.
+D3.10.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.10.fa -o D3.10.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.11.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.11.fa -o D3.11.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.12.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.12.fa -o D3.12.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.13.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.13.fa -o D3.13.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.14.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.14.fa -o D3.14.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.15.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.15.fa -o D3.15.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.16.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.16.fa -o D3.16.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.17.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.17.fa -o D3.17.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.18.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.18.fa -o D3.18.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.19.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.19.fa -o D3.19.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.1.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.1.fa -o D3.1.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.20.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.20.fa -o D3.20.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.21.fa
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.21.fa -o D3.21.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+Output files detected in disk. Use --resume or --override to continue
+D3.2.fa
+[1;32mFunctional annotation of hits...[0m
+0 5.0067901611328125e-06 0.00 q/s (% mem usage: 20.40, % mem avail: 79.64)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.2.fa -o D3.2.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.2.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.2.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.2.fa parsing complete.
+500 454.8336637020111 1.10 q/s (% mem usage: 22.60, % mem avail: 77.41)
+1000 454.85567140579224 2.20 q/s (% mem usage: 22.60, % mem avail: 77.41)
+1500 454.87458300590515 3.30 q/s (% mem usage: 22.60, % mem avail: 77.41)
+2000 454.8918273448944 4.40 q/s (% mem usage: 22.60, % mem avail: 77.41)
+2406 454.9906792640686 5.29 q/s (% mem usage: 22.60, % mem avail: 77.43)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.2.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 2406
+Total time: 13007 secs
+FINISHED
+D3.3.fa
+[1;32mFunctional annotation of hits...[0m
+0 4.0531158447265625e-06 0.00 q/s (% mem usage: 22.60, % mem avail: 77.44)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.3.fa -o D3.3.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.3.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.3.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.3.fa parsing complete.
+500 376.59028720855713 1.33 q/s (% mem usage: 24.70, % mem avail: 75.25)
+1000 376.6064977645874 2.66 q/s (% mem usage: 24.70, % mem avail: 75.25)
+1500 376.62055468559265 3.98 q/s (% mem usage: 24.70, % mem avail: 75.25)
+2000 376.6342854499817 5.31 q/s (% mem usage: 24.70, % mem avail: 75.25)
+2500 376.6493215560913 6.64 q/s (% mem usage: 24.70, % mem avail: 75.25)
+2683 376.68304228782654 7.12 q/s (% mem usage: 24.70, % mem avail: 75.26)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.3.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 2683
+Total time: 15739 secs
+FINISHED
+D3.4.fa
+[1;32mFunctional annotation of hits...[0m
+0 3.814697265625e-06 0.00 q/s (% mem usage: 29.10, % mem avail: 70.91)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.4.fa -o D3.4.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.4.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.4.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.4.fa parsing complete.
+500 513.4690358638763 0.97 q/s (% mem usage: 33.70, % mem avail: 66.27)
+1000 513.485609292984 1.95 q/s (% mem usage: 33.70, % mem avail: 66.27)
+1403 513.5592486858368 2.73 q/s (% mem usage: 33.70, % mem avail: 66.30)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.4.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 1403
+Total time: 11118 secs
+FINISHED
+D3.5.fa
+[1;32mFunctional annotation of hits...[0m
+0 4.291534423828125e-06 0.00 q/s (% mem usage: 14.80, % mem avail: 85.19)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.5.fa -o D3.5.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.5.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.5.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.5.fa parsing complete.
+500 584.0516028404236 0.86 q/s (% mem usage: 22.00, % mem avail: 78.02)
+1000 584.0696475505829 1.71 q/s (% mem usage: 22.00, % mem avail: 78.02)
+1048 584.1418311595917 1.79 q/s (% mem usage: 21.90, % mem avail: 78.07)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.5.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 1048
+Total time: 9562 secs
+FINISHED
+D3.6.fa
+[1;32mFunctional annotation of hits...[0m
+0 3.814697265625e-06 0.00 q/s (% mem usage: 14.70, % mem avail: 85.26)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.6.fa -o D3.6.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.6.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.6.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.6.fa parsing complete.
+500 573.151643037796 0.87 q/s (% mem usage: 22.10, % mem avail: 77.91)
+1000 573.1693954467773 1.74 q/s (% mem usage: 22.10, % mem avail: 77.91)
+1407 573.2385749816895 2.45 q/s (% mem usage: 22.10, % mem avail: 77.93)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.6.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 1407
+Total time: 15525 secs
+FINISHED
+D3.7.fa
+[1;32mFunctional annotation of hits...[0m
+0 3.5762786865234375e-06 0.00 q/s (% mem usage: 15.70, % mem avail: 84.35)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.7.fa -o D3.7.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.7.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.7.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.7.fa parsing complete.
+500 4801.575766086578 0.10 q/s (% mem usage: 22.60, % mem avail: 77.36)
+1000 4801.592339754105 0.21 q/s (% mem usage: 22.60, % mem avail: 77.36)
+1500 4801.607746124268 0.31 q/s (% mem usage: 22.60, % mem avail: 77.36)
+2000 4801.622988462448 0.42 q/s (% mem usage: 22.60, % mem avail: 77.36)
+2500 4801.638649463654 0.52 q/s (% mem usage: 22.60, % mem avail: 77.36)
+3000 4801.653870344162 0.62 q/s (% mem usage: 22.60, % mem avail: 77.36)
+3500 4801.669047117233 0.73 q/s (% mem usage: 22.60, % mem avail: 77.36)
+3898 4801.737792253494 0.81 q/s (% mem usage: 22.60, % mem avail: 77.39)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.7.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 3898
+Total time: 24434 secs
+FINISHED
+D3.8.fa
+[1;32mFunctional annotation of hits...[0m
+0 5.245208740234375e-06 0.00 q/s (% mem usage: 20.70, % mem avail: 79.28)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.8.fa -o D3.8.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.8.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.8.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.8.fa parsing complete.
+500 274.1105830669403 1.82 q/s (% mem usage: 21.90, % mem avail: 78.07)
+1000 274.1246392726898 3.65 q/s (% mem usage: 21.90, % mem avail: 78.07)
+1500 274.13891315460205 5.47 q/s (% mem usage: 21.90, % mem avail: 78.07)
+2000 274.15272068977356 7.30 q/s (% mem usage: 21.90, % mem avail: 78.07)
+2500 274.16598773002625 9.12 q/s (% mem usage: 21.90, % mem avail: 78.07)
+3000 274.1795377731323 10.94 q/s (% mem usage: 21.90, % mem avail: 78.07)
+3500 274.1929533481598 12.76 q/s (% mem usage: 21.90, % mem avail: 78.07)
+4000 274.20620918273926 14.59 q/s (% mem usage: 21.90, % mem avail: 78.07)
+4492 274.2431900501251 16.38 q/s (% mem usage: 21.90, % mem avail: 78.07)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.8.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 4492
+Total time: 14790 secs
+FINISHED
+D3.9.fa
+[1;32mFunctional annotation of hits...[0m
+0 2.86102294921875e-06 0.00 q/s (% mem usage: 18.30, % mem avail: 81.72)
+#  emapper-2.1.5-35a361d
+# emapper.py  --itype metagenome -i D3.9.fa -o D3.9.fa --output_dir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.9.fa --threads 1 -o /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mDecorating gff file /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.gff...[0m
+Parsing fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.9.fa...
+Fasta file /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/D3.9.fa parsing complete.
+500 379.22323632240295 1.32 q/s (% mem usage: 21.60, % mem avail: 78.40)
+995 379.2640542984009 2.62 q/s (% mem usage: 21.60, % mem avail: 78.41)
+[32mDone[0m
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.genepred.fasta
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.gff
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.hits
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.seed_orthologs
+   /crex/proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/D3.9.fa.emapper.annotations
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas.
+      biorxiv (2021). doi: https://doi.org/10.1101/2021.06.03.446934
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Fast and Sensitive Protein Alignment using DIAMOND. Buchfink B, Xie C,
+       Huson DH. 2015. Nat. Methods 12, 59–60. https://doi.org/10.1038/nmeth.3176
+
+e.g. Functional annotation was performed using emapper-2.1.5-35a361d [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+
+================================================================================
+
+Total hits processed: 995
+Total time: 9531 secs
+FINISHED
+emappertmp_dmdn_74hp3f8g
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_74hp3f8g'
+emappertmp_dmdn_iwsfz5gv
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_iwsfz5gv'
+emappertmp_dmdn_vmu9hn2d
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_vmu9hn2d'
+emappertmp_dmdn_yoiqnv_6
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_yoiqnv_6'
+normalize
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'normalize'

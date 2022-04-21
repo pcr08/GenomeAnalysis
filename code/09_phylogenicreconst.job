@@ -10,7 +10,7 @@
 #script for phylogenetic reconstruction
 #this script takes bins from binning without structural (Proka)/ functional (eggNOGmapper) annotation
 #load the necessary modules
-module load bioinfo-tools phylophlan/0.99 python/2.7.15 biopython FastTree muscle usearch/5.2.32
+module load bioinfo-tools phylophlan/0.99 python/2.7.15 biopython/1.7.3 FastTree muscle/3.8.31 usearch/5.2.32
 
 
 #rename files to not have the execution date

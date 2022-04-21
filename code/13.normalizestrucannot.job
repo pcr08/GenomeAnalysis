@@ -1,0 +1,25 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J norm_structural_annotation
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for structural annotation using prokka
+#load the necessary modules
+module load bioinfo-tools prokka
+
+for f in /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/*
+do
+echo $f
+prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize/"$f"_ann.out
+done
+
+for f in /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/*
+do
+echo $f
+prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize/"$f"_ann.out
+done
+

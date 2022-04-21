@@ -1,0 +1,51 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J binningnorm_eval
+#SBATCH -t 05:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for quality of assembly for normalized data
+
+#load the necessary modules
+module load bioinfo-tools CheckM
+
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/CheckM_data/2015_01_16
+#tell CheckM about the data location
+checkm data setRoot $PWD
+
+#start the analysis
+#Place bins in the reference genome tree --> checkm tree <bin folder> <output folder>
+checkm tree -x fa --reduced_tree /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/
+checkm tree -x fa --reduced_tree /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/
+
+
+#Assess phylogenetic markers found in each bin --> checkm tree_qa <tree folder>
+mkdir /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_tree_qa
+mkdir /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_tree_qa
+checkm tree_qa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/ -o 2 > /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_tree_qa/
+checkm tree_qa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/ -o 2 > /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_tree_qa/
+
+#Infer lineage-specific marker sets for each bin -->  checkm lineage_set <tree folder> <marker file>
+checkm lineage_set /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_marker
+checkm lineage_set /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_marker
+
+#lineage_wf
+checkm lineage_wf -t 4 -x fa --reduced_tree /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/
+checkm lineage_wf -t 4 -x fa --reduced_tree /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/
+
+#Identify marker genes in bins --> checkm analyze <marker file> <bin folder> <output folder>
+mkdir /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_analyze
+mkdir /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_analyze
+checkm analyze -x fa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_marker /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_analyze/
+checkm analyze -x fa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_marker /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/ /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_analyze/
+
+#Taxonomy pipeline --> taxon_set, analyze and qa --> checkm taxonomy_wf <results folder> <output folder>
+#checkm taxonomy_wf -t 2 -x fa domain Bacteria /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval
+#checkm taxonomy_wf -t 2 -x fa domain Bacteria /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval
+
+#Assess bins for contamination and completeness --> checkm qa <marker file> <output folder>
+checkm qa -t 2 -o 2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_marker /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_analyze > /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1_eval/normalize/D1_qa.out
+checkm qa -t 2 -o 2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_marker /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_analyze > /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3_eval/normalize/D3_qa.out

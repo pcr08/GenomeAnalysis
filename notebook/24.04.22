@@ -1,0 +1,5 @@
+Today's work:
+
+- 10.RNAmapp.job for mapping trimmed RNA to combined DNA bins
+- 15.RNAcoverage.job for calculating the read coverage with samtools
+- Start working again on phylogenetic reconstruction

@@ -1,0 +1,54 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -J phylo
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for phylogenetic reconstruction
+#this script takes bins from binning without structural (Proka)/ functional (eggNOGmapper) annotation
+#load the necessary modules
+module load bioinfo-tools phylophlan/0.99 python/2.7.15 biopython/1.7.3 FastTree muscle/3.8.31 usearch/5.2.32
+
+
+#rename files to not have the execution date
+#cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/structann/D1 
+#for D1_prokkabins in *ann.out
+#do
+#echo $D1_prokkabins
+#for D1_prokkafiles in $D1_prokkabins/*
+#do
+#echo $D1_prokkafiles
+#mv "$D1_prokkafiles" "${D1_prokkafiles/PROKKA_04112022/$D1_prokkabins}"
+#done
+#done
+
+#cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/structann/D3 
+#for D3_prokkabins in *ann.out
+#do
+#echo $D3_prokkabins
+#for D3_prokkafiles in $D3_prokkabins/*
+#do
+#echo $D3_prokkafiles
+#mv "$D3_prokkafiles" "${D3_prokkafiles/PROKKA_04112022/$D3_prokkabins}"
+#done
+#done
+
+# Copy installed phylophlan 0.99 files to my working directory (couldnt download new version from bitbucket)
+#cp -r /sw/bioinfo/phylophlan/0.99/snowy/bin/* /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/
+cp -r /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/* /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/ 
+
+# Prokka output will be the input for phylophlan since it has DNA/AA-sequence for the genes in the bins/genome (and metabat only had DNA-sequence for bins/genome)
+#ln -s /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/structann/D1/*ann.out/*.faa /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/input/D1/
+#ln -s /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/structann/D3/*ann.out/*.faa /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/input/D3/
+
+
+#run phylophlan nproc -- number of CPUs -i input -o output with error file D1/D3_phylo.err
+#/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/phylophlan.py -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/*.fa -t --nproc 2 -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/output/D1/ 2> D1_phylo.err  
+#/home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/phylophlan.py -i /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/*.fa -t --nproc 2 -o /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/output/D3/ 2> D3_phylo.err
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/output/D1 
+phylophlan.py -i D1 -t --nproc 2 2> D1_phylo.err
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/phylo/output/D3
+phylophlan.py -i D3 -t --nproc 2 2> D3_phylo.err

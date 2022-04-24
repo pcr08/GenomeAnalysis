@@ -7,7 +7,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
 
-#script for quality of assembly for normalized data
+#script for binning of assembly for normalized data
 
 #load the necessary modules
 module load bioinfo-tools CheckM

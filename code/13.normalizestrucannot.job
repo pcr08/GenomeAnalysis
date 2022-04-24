@@ -14,12 +14,12 @@ module load bioinfo-tools prokka
 for f in /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/*
 do
 echo $f
-prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize/"$f"_ann.out
+prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/structann/D1/normalize/"${f/"/domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize/"/}"_ann.out
 done
 
 for f in /domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/*
 do
 echo $f
-prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize/"$f"_ann.out
+prokka --metagenome --cpus 2 $f --outdir /proj/genomeanalysis2022/nobackup/work/pcr/output/structann/D3/normalize/"${f/"/domus/h1/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize/"/}"_ann.out
 done
 

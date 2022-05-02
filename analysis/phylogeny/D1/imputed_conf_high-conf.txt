@@ -1,0 +1,5 @@
+D1.8.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+D1.11.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+D1.4.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+D1.12.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+D1.3.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?

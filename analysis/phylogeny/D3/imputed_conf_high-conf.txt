@@ -1,0 +1,4 @@
+D3.8.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D3.16.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D3.3.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D3.14.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?

@@ -1,0 +1,1 @@
+PROKKA_04222022	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?

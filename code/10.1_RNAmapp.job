@@ -1,0 +1,34 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J mapping_RNA_bowtie
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for mapping RNA samples
+#load the necessary modules
+module load bioinfo-tools bowtie2/2.3.5.1 samtools
+
+#sample D1
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie 
+#index
+bowtie2-build /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_allbins_concat.fa bowtie 
+#bowtie2 -x reference -U sample.fq -S sample.sam
+bowtie2 -x bowtie -1 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz -2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz -S /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie/D1_bowtie.sam
+
+samtools sort /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie/D1_bowtie.sam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie/D1_bowtie.bam #sort
+
+samtools index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie/D1_bowtie.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/bowtie/D1_bowtie.bai #index
+
+#sample D3
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie
+#index
+bowtie2-build /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_allbins_concat.fa bowtie
+#bowtie2 -x reference -U sample.fq -S sample.sam
+bowtie2 -x bowtie -1 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342139.forward_paired.trimmed.fastq.gz -2 /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342139.reverse_paired.trimmed.fastq.gz -S /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie/D3_bowtie.sam
+
+samtools sort /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie/D3_bowtie.sam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie/D3_bowtie.bam #sort
+
+samtools index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie/D3_bowtie.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/bowtie/D3_bowtie.bai #index

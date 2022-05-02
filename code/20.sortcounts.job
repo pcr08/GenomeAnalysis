@@ -1,0 +1,32 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J sort_counts
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for differential expression
+#load the necessary modules
+
+module load bioinfo-tools
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D1/normalize/counts/try
+
+for n in *
+do
+echo $n
+grep -v "__" $n | sort -rk2 > /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/expression/D1/${n}
+done
+
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D3/normalize/counts/try
+
+for n in *
+do
+echo $n
+grep -v "__" $n | sort -rk2 > /home/pcr98/GenomeAnalysis/GenomeAnalysis/analysis/expression/D3/${n}
+done
+
+

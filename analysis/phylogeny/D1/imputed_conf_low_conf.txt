@@ -1,0 +1,5 @@
+D1.10.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+D1.5.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+D1.6.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+D1.2.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__Actinomycetales.f__?.g__?.s__?.t__?
+D1.7.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__Actinomycetales.f__?.g__?.s__?.t__?

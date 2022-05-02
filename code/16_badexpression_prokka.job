@@ -1,0 +1,39 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J differential_expression
+#SBATCH -t 48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for differential expression
+#load the necessary modules
+
+module load bioinfo-tools htseq
+ 
+#Converts GFF file from Prokka to GTF for htseq-count
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/structann/D1/normalize
+for f in *
+do
+for file in $f/*.gff
+do
+echo $file
+grep -v "#" $file | grep "ID=" | cut -f1 -d ';' | sed 's/ID=//g' | cut -f1,4,5,7,9 |  awk -v OFS='\t' '{print $1,"PROKKA","CDS",$2,$3,".",$4,".","gene_id " $5}' > conv_${f}.gff
+mv conv_${f}.gff /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D1/normalize/conv_${f}.gff
+htseq-count -f bam -t CDS -r pos /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D1/normalize/conv_${f}.gff > /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D1/normalize/counts/D1_htseq_${f}.counts
+done
+done
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/structann/D3/normalize
+for f in *
+do
+for file in $f/*.gff
+do
+echo $file
+grep -v "#" $file | grep "ID=" | cut -f1 -d ';' | sed 's/ID=//g' | cut -f1,4,5,7,9 |  awk -v OFS='\t' '{print $1,"PROKKA","CDS",$2,$3,".",$4,".","gene_id " $5}' > conv_${f}.gff
+mv conv_${f}.gff /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D3/normalize/conv_${f}.gff
+htseq-count -f bam -t CDS -r pos /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D3/normalize/conv_${f}.gff > /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D3/normalize/counts/D3_htseq_${f}.counts
+done
+done
+

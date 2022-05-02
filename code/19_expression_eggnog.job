@@ -1,0 +1,37 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J differential_expression
+#SBATCH -t 48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for differential expression
+#load the necessary modules
+
+module load bioinfo-tools htseq
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f3 -d ".")
+echo $bin
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/try
+cd $bin 
+htseq-count -f bam -t CDS -r pos -i ID *.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize/$f > /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D1/normalize/counts/try/D1_htseq_${bin}.counts
+done
+
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f3 -d ".")
+echo $bin
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/try
+cd $bin
+htseq-count -f bam -t CDS -r pos -i ID *.bam /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize/$f > /proj/genomeanalysis2022/nobackup/work/pcr/output/expression/D3/normalize/counts/try/D3_htseq_${bin}.counts
+done
+

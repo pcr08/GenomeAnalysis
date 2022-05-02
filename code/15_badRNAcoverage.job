@@ -1,0 +1,47 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J coverage_RNA
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for read coverage (samtools)
+#load the necessary modules
+module load bioinfo-tools samtools
+
+#https://notebooks.githubusercontent.com/view/ipynb?browser=chrome&color_mode=auto&commit=17531934f410d6afe654c33c3ced192b1a01c5c2&device=unknown&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68617276617264696e666f726d61746963732f62696f696e666f726d61746963732d636f666665652d686f75722f313735333139333466343130643661666536353463333363336365643139326231613031633563322f73616d746f6f6c732f696e6465782e6970796e62&logged_in=false&nwo=harvardinformatics%2Fbioinformatics-coffee-hour&path=samtools%2Findex.ipynb&platform=android&repository_id=255388627&repository_type=Repository&version=96
+#sample D1
+#Index: creates a searchable index of your sorted BAM file, which is required for some programs -- samtools index data/file.sorted.bam
+samtools index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam
+
+#View: allows you to view the contents of a BAM/SAM file in SAM format --  samtools view data/file.sorted.bam
+samtools view /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_view.sam
+
+#Coverage: for each contig/scaffold in the BAM/SAM file, outputs several useful summary stats as a table -- samtools coverage data/file.sorted.bam
+samtools coverage /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_coverage
+
+#Depth: look at per-base coverage rather than the average -- samtools depth data/file.sorted.bam
+samtools depth /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_depth  
+
+#Stats: -- quick summary statistics about your mapping reads, just look at the summary -- samtools stats data/file.sorted.bam | grep ^SN | cut -f 2-
+samtools stats /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam  | grep ^SN | cut -f 2- > /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_summary  
+
+#sample D3
+#Index: creates a searchable index of your sorted BAM file, which is required for some programs -- samtools index data/file.sorted.bam
+samtools index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam
+
+#View: allows you to view the contents of a BAM/SAM file in SAM format --  samtools view data/file.sorted.bam
+samtools view /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_view.sam
+
+#Coverage: for each contig/scaffold in the BAM/SAM file, outputs several useful summary stats as a table -- samtools coverage data/file.sorted.bam
+samtools coverage /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_coverage
+
+#Depth: look at per-base coverage rather than the average -- samtools depth data/file.sorted.bam
+samtools depth /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_depth
+
+#Stats: -- quick summary statistics about your mapping reads, just look at the summary -- samtools stats data/file.sorted.bam | grep ^SN | cut -f 2-
+samtools stats /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam | grep ^SN | cut -f 2- > /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_summary
+
+

@@ -1,0 +1,40 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J mapping_RNA
+#SBATCH -t 10:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for mapping RNA samples
+#load the necessary modules
+module load bioinfo-tools bwa samtools
+
+#combine all the bins in a file, command copied from article
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D1/normalize
+for i in *.fa; do name=`echo $i | awk 'BEGIN{FS="."}{print $1$3}'`; echo ">"$name >> D1_allbins_concat.fa; grep -v '>' $i >> D1_allbins_concat.fa; done
+mv D1_allbins_concat.fa /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_allbins_concat.fa
+
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/binning/D3/normalize
+for i in *.fa; do name=`echo $i | awk 'BEGIN{FS="."}{print $1$3}'`; echo ">"$name >> D3_allbins_concat.fa; grep -v '>' $i >> D3_allbins_concat.fa; done
+mv D3_allbins_concat.fa /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_allbins_concat.fa
+ 
+
+#sample D1
+#BWA first needs to construct the FM-index for the reference genome (the index command) -- bwa index ref.fa
+bwa index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_allbins_concat.fa 2> /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_index.out
+
+#Alignment algorithms are invoked with different sub-commands: aln/samse/sampe for BWA-backtrack, bwasw for BWA-SW and mem for the BWA-MEM algorithm -- bwa mem ref.fa read1.fq read2.fq > aln-pe.sam | Sort the alignments for later processing and store in a binary format -- samtools sort sample.sam -o sample.bam 
+bwa mem /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_allbins_concat.fa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz 2> /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_mem.out | samtools sort -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D1/normalize/D1_sorted.bam
+
+#sample D3
+#BWA first needs to construct the FM-index for the reference genome (the index command) -- bwa index ref.fa
+bwa index /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_allbins_concat.fa 2> /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_index.out
+
+#Alignment algorithms are invoked with different sub-commands: aln/samse/sampe for BWA-backtrack, bwasw for BWA-SW and mem for the BWA-MEM algorithm -- bwa mem ref.fa read1.fq read2.fq > aln-pe.sam | Sort the alignments for later processing and store in a binary format -- samtools sort sample.sam -o sample.bam
+bwa mem /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_allbins_concat.fa /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342139.forward_paired.trimmed.fastq.gz /home/pcr98/GenomeAnalysis/GenomeAnalysis/output/RNA_trimmed/RNA_trim_SRR4342139.reverse_paired.trimmed.fastq.gz 2> /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_mem.out | samtools sort -o /proj/genomeanalysis2022/nobackup/work/pcr/output/mapping/D3/normalize/D3_sorted.bam
+
+
+
+

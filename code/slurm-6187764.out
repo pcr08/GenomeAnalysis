@@ -1,0 +1,652 @@
+D1.normalize.10.fa.emapper.gff
+10
+/var/spool/slurmd/job6187764/slurm_script: line 23: cd: 10: No such file or directory
+[E::hts_open_format] Failed to open file "*.bam" : No such file or directory
+  [Errno 2] could not open alignment file `*.bam`: No such file or directory
+  [Exception type: FileNotFoundError, raised in libcalignmentfile.pyx:941]
+D1.normalize.11.fa.emapper.gff
+11
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.11.fa_sorted.bam'
+1130 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.11.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.12.fa.emapper.gff
+12
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.12.fa_sorted.bam'
+625 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.12.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.13.fa.emapper.gff
+13
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.13.fa_sorted.bam'
+457 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.13.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.14.fa.emapper.gff
+14
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.14.fa_sorted.bam'
+1025 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.14.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.15.fa.emapper.gff
+15
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.15.fa_sorted.bam'
+834 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.15.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.16.fa.emapper.gff
+16
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.16.fa_sorted.bam'
+1185 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.16.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.1.fa.emapper.gff
+1
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.1.fa_sorted.bam'
+1267 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.1.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.2.fa.emapper.gff
+2
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.2.fa_sorted.bam'
+776 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.2.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.3.fa.emapper.gff
+3
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.3.fa_sorted.bam'
+2073 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.3.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.4.fa.emapper.gff
+4
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.4.fa_sorted.bam'
+206 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.4.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.5.fa.emapper.gff
+5
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.5.fa_sorted.bam'
+909 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.5.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.6.fa.emapper.gff
+6
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.6.fa_sorted.bam'
+1313 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.6.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.7.fa.emapper.gff
+7
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.7.fa_sorted.bam'
+3738 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.7.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.8.fa.emapper.gff
+8
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.8.fa_sorted.bam'
+917 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.8.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D1.normalize.9.fa.emapper.gff
+9
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.9.fa_sorted.bam'
+836 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D1.normalize.9.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+678828 alignment pairs processed.
+D3.normalize.10.fa.emapper.gff
+10
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.10.fa_sorted.bam'
+2494 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.10.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.11.fa.emapper.gff
+11
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.11.fa_sorted.bam'
+1690 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.11.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.12.fa.emapper.gff
+12
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.12.fa_sorted.bam'
+707 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.12.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.13.fa.emapper.gff
+13
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.13.fa_sorted.bam'
+455 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.13.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.14.fa.emapper.gff
+14
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.14.fa_sorted.bam'
+1479 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.14.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.15.fa.emapper.gff
+15
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.15.fa_sorted.bam'
+2247 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.15.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.16.fa.emapper.gff
+16
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.16.fa_sorted.bam'
+971 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.16.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.17.fa.emapper.gff
+17
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.17.fa_sorted.bam'
+2157 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.17.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.18.fa.emapper.gff
+18
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.18.fa_sorted.bam'
+170 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.18.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.19.fa.emapper.gff
+19
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.19.fa_sorted.bam'
+262 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.19.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.1.fa.emapper.gff
+1
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.1.fa_sorted.bam'
+1328 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.1.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.20.fa.emapper.gff
+20
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.20.fa_sorted.bam'
+691 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.20.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.21.fa.emapper.gff
+21
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.21.fa_sorted.bam'
+891 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.21.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.22.fa.emapper.gff
+22
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.22.fa_sorted.bam'
+406 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.22.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.23.fa.emapper.gff
+23
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.23.fa_sorted.bam'
+1491 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.23.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.24.fa.emapper.gff
+24
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.24.fa_sorted.bam'
+3398 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.24.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.25.fa.emapper.gff
+25
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.25.fa_sorted.bam'
+1741 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.25.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.26.fa.emapper.gff
+26
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.26.fa_sorted.bam'
+2607 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.26.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.27.fa.emapper.gff
+27
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.27.fa_sorted.bam'
+1001 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.27.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.28.fa.emapper.gff
+28
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.28.fa_sorted.bam'
+606 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.28.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.29.fa.emapper.gff
+29
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.29.fa_sorted.bam'
+2360 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.29.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.2.fa.emapper.gff
+2
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.2.fa_sorted.bam'
+779 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.2.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.30.fa.emapper.gff
+30
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.30.fa_sorted.bam'
+1257 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.30.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.3.fa.emapper.gff
+3
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.3.fa_sorted.bam'
+449 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.3.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.4.fa.emapper.gff
+4
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.4.fa_sorted.bam'
+1442 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.4.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.5.fa.emapper.gff
+5
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.5.fa_sorted.bam'
+439 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.5.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.6.fa.emapper.gff
+6
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.6.fa_sorted.bam'
+810 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.6.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.7.fa.emapper.gff
+7
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.7.fa_sorted.bam'
+1937 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.7.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.8.fa.emapper.gff
+8
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.8.fa_sorted.bam'
+844 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.8.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D3.normalize.9.fa.emapper.gff
+9
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.9.fa_sorted.bam'
+882 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for 'D3.normalize.9.fa_sorted.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+400000 alignment record pairs processed.
+500000 alignment record pairs processed.
+600000 alignment record pairs processed.
+700000 alignment record pairs processed.
+800000 alignment record pairs processed.
+807675 alignment pairs processed.
+D1_htseq_10.counts
+D1_htseq_11.counts
+D1_htseq_12.counts
+D1_htseq_13.counts
+D1_htseq_14.counts
+D1_htseq_15.counts
+D1_htseq_16.counts
+D1_htseq_1.counts
+D1_htseq_2.counts
+D1_htseq_3.counts
+D1_htseq_4.counts
+D1_htseq_5.counts
+D1_htseq_6.counts
+D1_htseq_7.counts
+D1_htseq_8.counts
+D1_htseq_9.counts
+D3_htseq_10.counts
+D3_htseq_11.counts
+D3_htseq_12.counts
+D3_htseq_13.counts
+D3_htseq_14.counts
+D3_htseq_15.counts
+D3_htseq_16.counts
+D3_htseq_17.counts
+D3_htseq_18.counts
+D3_htseq_19.counts
+D3_htseq_1.counts
+D3_htseq_20.counts
+D3_htseq_21.counts
+D3_htseq_22.counts
+D3_htseq_23.counts
+D3_htseq_24.counts
+D3_htseq_25.counts
+D3_htseq_26.counts
+D3_htseq_27.counts
+D3_htseq_28.counts
+D3_htseq_29.counts
+D3_htseq_2.counts
+D3_htseq_30.counts
+D3_htseq_3.counts
+D3_htseq_4.counts
+D3_htseq_5.counts
+D3_htseq_6.counts
+D3_htseq_7.counts
+D3_htseq_8.counts
+D3_htseq_9.counts

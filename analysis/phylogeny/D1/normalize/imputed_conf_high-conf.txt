@@ -1,0 +1,6 @@
+D1.normalize.4.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Deltaproteobacteria.o__Bdellovibrionales.f__?.g__?.s__?.t__?
+D1.normalize.1.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D1.normalize.2.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D1.normalize.11.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D1.normalize.3.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D1.normalize.15.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?

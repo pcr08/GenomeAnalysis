@@ -1,1 +1,8 @@
-PROKKA_04222022	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D3.normalize.15.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D3.normalize.29.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+D3.normalize.10.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D3.normalize.26.fa_ann.out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+D3.normalize.6.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D3.normalize.5.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D3.normalize.13.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?
+D3.normalize.9.fa_ann.out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__Nitrosopumilales.f__Nitrosopumilaceae.g__?.s__?.t__?

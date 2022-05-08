@@ -1,0 +1,4 @@
+D3.normalize.21.fa_ann.out	d__Archaea.p__Euryarchaeota.c__Halobacteria.o__Halobacteriales.f__?.g__?.s__?.t__?
+D3.normalize.27.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+D3.normalize.18.fa_ann.out	d__Archaea.p__Euryarchaeota.c__Halobacteria.o__Halobacteriales.f__?.g__?.s__?.t__?
+D3.normalize.3.fa_ann.out	d__Archaea.p__Euryarchaeota.c__Halobacteria.o__Halobacteriales.f__?.g__?.s__?.t__?

@@ -1,0 +1,7 @@
+D1.normalize.5.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__Actinomycetales.f__?.g__?.s__?.t__?
+D1.normalize.7.fa_ann.out	d__Bacteria.p__Bacteroidetes.c__Flavobacteria.o__Flavobacteriales.f__Flavobacteriaceae.g__?.s__?.t__?
+D1.normalize.6.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+D1.normalize.13.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+D1.normalize.14.fa_ann.out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+D1.normalize.12.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__?.f__?.g__?.s__?.t__?
+D1.normalize.16.fa_ann.out	d__Bacteria.p__Actinobacteria.c__Actinobacteria.o__Actinomycetales.f__?.g__?.s__?.t__?

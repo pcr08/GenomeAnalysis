@@ -1,0 +1,7 @@
+path BETSYN-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  glycine betaine biosynthesis I (Gram-negative bacteria)
+path PWY-3722 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  glycine betaine biosynthesis II (Gram-positive bacteria)
+path PWY1F-353 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  glycine betaine biosynthesis III (plants)
+path PWY-6471 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  peptidoglycan biosynthesis IV (Enterococcus faecium)
+path PWY-7494 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  choline degradation IV
+path P542-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  choline-O-sulfate degradation
+path PWY-5265 any n/a  naive 1  minpath 0  fam0  16  fam-found  1  name  peptidoglycan biosynthesis II (staphylococci)

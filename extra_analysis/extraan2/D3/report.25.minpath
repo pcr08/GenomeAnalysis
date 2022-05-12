@@ -1,0 +1,31 @@
+path TRNA-CHARGING-PWY any n/a  naive 1  minpath 1  fam0  20  fam-found  2  name  tRNA charging
+path CALVIN-PWY any n/a  naive 1  minpath 0  fam0  11  fam-found  1  name  Calvin-Benson-Bassham cycle
+path COLANSYN-PWY any n/a  naive 1  minpath 1  fam0  9  fam-found  1  name  colanic acid building blocks biosynthesis
+path KDO-NAGLIPASYN-PWY any n/a  naive 1  minpath 1  fam0  13  fam-found  1  name  superpathway of (Kdo)2-lipid A biosynthesis
+path LPSSYN-PWY any n/a  naive 1  minpath 0  fam0  18  fam-found  1  name  superpathway of lipopolysaccharide biosynthesis
+path PWY-5121 any n/a  naive 1  minpath 1  fam0  11  fam-found  1  name  superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)
+path PWY-5134 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  superpathway of bitter acids biosynthesis
+path PWY-7218 any n/a  naive 1  minpath 0  fam0  21  fam-found  1  name  photosynthetic 3-hydroxybutanoate biosynthesis (engineered)
+path PWY66-21 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation II
+path PWY66-161 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation III
+path PWY66-162 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation IV
+path PWY-5062 any n/a  naive 1  minpath 1  fam0  8  fam-found  1  name  superpathway of nicotinate degradation
+path PWY0-1313 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  acetate conversion to acetyl-CoA
+path PENTOSE-P-PWY any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  pentose phosphate pathway
+path NONOXIPENT-PWY any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  pentose phosphate pathway (non-oxidative branch) I
+path P21-PWY any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  pentose phosphate pathway (partial)
+path PHOTOALL-PWY any n/a  naive 1  minpath 0  fam0  15  fam-found  1  name  oxygenic photosynthesis
+path PWY-6969 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  TCA cycle V (2-oxoglutarate synthase)
+path PWY-6573 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  chondroitin sulfate degradation (metazoa)
+path PWY0-1479 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  tRNA processing
+path PWY-7124 any n/a  naive 1  minpath 1  fam0  21  fam-found  2  name  ethene biosynthesis V (engineered)
+path PWY-7575 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  superpathway of candicidin biosynthesis
+path PWY-7323 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of GDP-mannose-derived O-antigen building blocks biosynthesis
+path PWY-5004 any n/a  naive 1  minpath 1  fam0  11  fam-found  1  name  superpathway of L-citrulline metabolism
+path PWY-6292 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  superpathway of L-cysteine biosynthesis (mammalian)
+path PWY-5328 any n/a  naive 1  minpath 0  fam0  14  fam-found  1  name  superpathway of L-methionine salvage and degradation
+path PWY-7245 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of NAD/NADP - NADH/NADPH interconversion (yeast)
+path PWY0-845 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  superpathway of pyridoxal 5'-phosphate biosynthesis and salvage
+path THISYN-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of thiamine diphosphate biosynthesis I
+path PWY-6895 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  superpathway of thiamine diphosphate biosynthesis II
+path THISYNARA-PWY any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  superpathway of thiamine diphosphate biosynthesis III (eukaryotes)

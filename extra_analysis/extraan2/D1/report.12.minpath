@@ -1,0 +1,20 @@
+path GLYCOL-GLYOXDEG-PWY any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  superpathway of glycol metabolism and degradation
+path NPGLUCAT-PWY any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  Entner-Doudoroff pathway II (non-phosphorylative)
+path PWY-7383 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  anaerobic energy metabolism (invertebrates, cytosol)
+path PWY-7389 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  superpathway of anaerobic energy metabolism (invertebrates)
+path PWY-7210 any n/a  naive 1  minpath 1  fam0  7  fam-found  1  name  pyrimidine deoxyribonucleotides biosynthesis from CTP
+path PWY-7184 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  pyrimidine deoxyribonucleotides de novo biosynthesis I
+path PWY-6545 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  pyrimidine deoxyribonucleotides de novo biosynthesis III
+path PWY-7229 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of adenosine nucleotides de novo biosynthesis I
+path PWY-6126 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of adenosine nucleotides de novo biosynthesis II
+path GLUCARGALACTSUPER-PWY any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  superpathway of D-glucarate and D-galactarate degradation
+path PWY-7228 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of guanosine nucleotides de novo biosynthesis I
+path PWY-6125 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of guanosine nucleotides de novo biosynthesis II
+path PRPP-PWY any n/a  naive 1  minpath 0  fam0  37  fam-found  1  name  superpathway of histidine, purine, and pyrimidine biosynthesis
+path PWY-6516 any n/a  naive 1  minpath 0  fam0  24  fam-found  1  name  superpathway of microbial D-galacturonate and D-glucuronate degradation
+path PWY66-409 any n/a  naive 1  minpath 0  fam0  11  fam-found  1  name  superpathway of purine nucleotide salvage
+path PWY-841 any n/a  naive 1  minpath 0  fam0  17  fam-found  1  name  superpathway of purine nucleotides de novo biosynthesis I
+path DENOVOPURINE2-PWY any n/a  naive 1  minpath 0  fam0  18  fam-found  1  name  superpathway of purine nucleotides de novo biosynthesis II
+path PWY-7211 any n/a  naive 1  minpath 0  fam0  14  fam-found  1  name  superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis
+path PWY0-166 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)
+path PWY-1541 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  superpathway of taurine degradation

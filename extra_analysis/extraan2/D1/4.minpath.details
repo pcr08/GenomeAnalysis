@@ -1,0 +1,20 @@
+path PWY-8051 fam0 9 fam-found 1 # anandamide biosynthesis I
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-7411 fam0 5 fam-found 1 # phosphatidate biosynthesis (yeast)
+   2.3.1.15 hits 1 # glycerol-3-phosphate O-acyltransferase
+path PWY0-381 fam0 2 fam-found 1 # glycerol and glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-6952 fam0 1 fam-found 1 # glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-7750 fam0 1 fam-found 1 # carbon monoxide oxidation to CO2
+   1.2.5.3 hits 1 # carbon monoxide dehydrogenase
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 1 # glutamine synthetase
+path ARGSYN-PWY fam0 8 fam-found 1 # L-arginine biosynthesis I (via L-ornithine)
+   1.2.1.38 hits 1 # N-acetylglutamylphosphate reductase
+path PWY-6277 fam0 5 fam-found 1 # superpathway of 5-aminoimidazole ribonucleotide biosynthesis
+   2.1.2.2 hits 1 # phosphoribosylglycinamide formyltransferase 1
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 1 # glutamine synthetase

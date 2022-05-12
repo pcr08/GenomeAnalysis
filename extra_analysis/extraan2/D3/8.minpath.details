@@ -1,0 +1,12 @@
+path BETSYN-PWY fam0 2 fam-found 1 # glycine betaine biosynthesis I (Gram-negative bacteria)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY-3722 fam0 1 fam-found 1 # glycine betaine biosynthesis II (Gram-positive bacteria)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY1F-353 fam0 1 fam-found 1 # glycine betaine biosynthesis III (plants)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY-6471 fam0 2 fam-found 1 # peptidoglycan biosynthesis IV (Enterococcus faecium)
+   3.4.16.4 hits 1 # peptidoglycan D,D transpeptidase
+path PWY-7494 fam0 2 fam-found 1 # choline degradation IV
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path P542-PWY fam0 2 fam-found 1 # choline-O-sulfate degradation
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase

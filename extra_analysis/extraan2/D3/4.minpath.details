@@ -1,0 +1,75 @@
+path PWY-5143 fam0 1 fam-found 1 # long-chain fatty acid activation
+   6.2.1.3 hits 1 # long-chain-fatty-acid-CoA ligase
+path PWY-5340 fam0 2 fam-found 1 # sulfate activation for sulfonation
+   2.7.7.4 hits 1 # sulfate adenylyltransferase
+path PWY-5114 fam0 8 fam-found 1 # UDP-sugars interconversion
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase
+path TRNA-CHARGING-PWY fam0 20 fam-found 8 # tRNA charging
+   6.1.1.10 hits 1 # methionine--tRNA ligase
+   6.1.1.15 hits 1 # proline--tRNA ligase
+   6.1.1.11 hits 1 # L-serine:tRNASer ligase (AMP-forming)
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+   6.1.1.1 hits 1 # tyrosine--tRNA ligase
+   6.1.1.12 hits 1 # aspartate--tRNA ligase
+   6.1.1.7 hits 1 # alanine--tRNA ligase
+   6.1.1.4 hits 1 # leucine--tRNA ligase
+path GLUTATHIONESYN-PWY fam0 2 fam-found 1 # glutathione biosynthesis
+   6.3.2.2 hits 1 # glutamate--L-cysteine ligase
+path PWY-7094 fam0 6 fam-found 3 # fatty acid salvage
+   6.2.1.3 hits 1 # long-chain-fatty-acid-CoA ligase
+   1.1.1.35 hits 1 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+   2.3.1.16 hits 1 # acetyl-CoA C-octanoyltransferase
+path PWY0-881 fam0 9 fam-found 1 # superpathway of fatty acid biosynthesis I (E. coli)
+   2.3.1.180 hits 2 # beta-ketoacyl-ACP synthase
+path PWY-8043 fam0 2 fam-found 1 # ophthalmate biosynthesis
+   6.3.2.2 hits 1 # glutamate--L-cysteine ligase
+path PWY-5121 fam0 11 fam-found 2 # superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)
+   2.2.1.7 hits 1 # 1-deoxy-D-xylulose 5-phosphate synthase
+   1.17.7.4 hits 1 # isopentenyl-diphosphate:NAD(P)+ oxidoreductase
+path PWY66-21 fam0 2 fam-found 2 # ethanol degradation II
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-161 fam0 2 fam-found 2 # ethanol degradation III
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-162 fam0 2 fam-found 2 # ethanol degradation IV
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-389 fam0 2 fam-found 1 # phytol degradation
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+path GLUDEG-I-PWY fam0 4 fam-found 1 # GABA shunt
+   1.4.1.3 hits 1 # glutamate dehydrogenase
+path PWY-2504 fam0 29 fam-found 1 # superpathway of aromatic compound degradation via 3-oxoadipate
+   1.13.11.1 hits 1 # catechol 1,2-dioxygenase
+path PWY0-1313 fam0 1 fam-found 1 # acetate conversion to acetyl-CoA
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path P441-PWY fam0 21 fam-found 1 # superpathway of N-acetylneuraminate degradation
+   2.7.9.2 hits 1 # phosphoenolpyruvate synthetase
+path P221-PWY fam0 4 fam-found 2 # octane oxidation
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+   6.2.1.3 hits 1 # long-chain-fatty-acid-CoA ligase
+path PWY-6573 fam0 4 fam-found 1 # chondroitin sulfate degradation (metazoa)
+   3.2.1.52 hits 1 # beta-N-acetylhexosaminidase
+path PWY0-1587 fam0 1 fam-found 1 # N6-L-threonylcarbamoyladenosine37-modified tRNA biosynthesis
+   2.3.1.234 hits 1 # N6-L-threonylcarbamoyladenine synthase
+path PWY0-1479 fam0 4 fam-found 1 # tRNA processing
+   3.1.26.12 hits 1 # ribonuclease
+path PWY-7210 fam0 7 fam-found 1 # pyrimidine deoxyribonucleotides biosynthesis from CTP
+   1.17.4.1 hits 1 # CDP reductase
+path PWY-5130 fam0 4 fam-found 1 # 2-oxobutanoate degradation I
+   5.4.99.2 hits 1 # methylmalonyl-CoA mutase
+path ARGDEGRAD-PWY fam0 3 fam-found 1 # L-arginine degradation V (arginine deiminase pathway)
+   3.5.3.6 hits 1 # arginine deiminase
+path ALL-CHORISMATE-PWY fam0 52 fam-found 1 # superpathway of chorismate metabolism
+   2.5.1.15 hits 1 # dihydropteroate synthase
+path PWY-6358 fam0 5 fam-found 1 # superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism
+   3.1.3.25 hits 1 # myo-inositol-4-phosphate monophosphatase
+path PWY-7317 fam0 17 fam-found 2 # superpathway of dTDP-glucose-derived O-antigen building blocks biosynthesis
+   2.7.7.24 hits 1 # dTDP-glucose pyrophosphorylase
+   5.1.3.13 hits 1 # dTDP-4-dehydrorhamnose 3,5-epimerase
+path PWY-5257 fam0 33 fam-found 1 # superpathway of pentose and pentitol degradation
+   2.7.1.17 hits 1 # xylulokinase
+path THISYNARA-PWY fam0 6 fam-found 1 # superpathway of thiamine diphosphate biosynthesis III (eukaryotes)
+   2.7.6.2 hits 1 # thiamine pyrophosphokinase
+path PWY-4821 fam0 2 fam-found 1 # UDP-alpha-D-xylose biosynthesis
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase

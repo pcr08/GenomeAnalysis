@@ -1,0 +1,6 @@
+path PWY-5188 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  tetrapyrrole biosynthesis I (from glutamate)
+path PWY-5505 any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  L-glutamate and L-glutamine biosynthesis
+path PWY-6963 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ammonia assimilation cycle I
+path AMMASSIM-PWY any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  ammonia assimilation cycle III
+path PWY-3282 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of ammonia assimilation (plants)
+path PWY-5918 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of heme b biosynthesis from glutamate

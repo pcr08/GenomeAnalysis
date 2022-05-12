@@ -1,0 +1,53 @@
+path PWY-5344 fam0 2 fam-found 1 # L-homocysteine biosynthesis
+   2.5.1.49 hits 1 # O-acetylhomoserine sulfhydrylase
+path TRNA-CHARGING-PWY fam0 20 fam-found 4 # tRNA charging
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+   6.1.1.12 hits 1 # aspartate--tRNA ligase
+   6.1.1.16 hits 1 # cysteine--tRNA ligase
+   6.1.1.19 hits 1 # arginine--tRNA ligase
+path PWY-6164 fam0 2 fam-found 1 # 3-dehydroquinate biosynthesis I
+   2.5.1.54 hits 2 # 3-deoxy-7-phosphoheptulonate synthase
+path PWY-6707 fam0 2 fam-found 1 # gallate biosynthesis
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+path PWY-7250 fam0 3 fam-found 1 # [2Fe-2S] iron-sulfur cluster biosynthesis
+   2.8.1.7 hits 2 # cysteine desulfurase
+path P125-PWY fam0 2 fam-found 1 # superpathway of (R,R)-butanediol biosynthesis
+   2.2.1.6 hits 2 # acetolactate synthase
+path POLYISOPRENSYN-PWY fam0 5 fam-found 1 # polyisoprenoid biosynthesis (E. coli)
+   2.5.1.31 hits 1 # ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific]
+path PWY-5386 fam0 2 fam-found 1 # methylglyoxal degradation I
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-5386-1 fam0 2 fam-found 1 # methylglyoxal degradation VIII
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-6184 fam0 1 fam-found 1 # methylsalicylate degradation
+   1.14.13.1 hits 1 # 4-methylsalicylate 1-hydroxylase
+path PYRUVDEHYD-PWY fam0 3 fam-found 1 # pyruvate decarboxylation to acetyl CoA I
+   1.8.1.4 hits 2 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+path DETOX1-PWY-1 fam0 3 fam-found 1 # reactive oxygen species degradation
+   1.11.1.9 hits 1 # glutathione peroxidase
+path PWY-7007 fam0 4 fam-found 2 # methyl ketone biosynthesis (engineered)
+   4.2.1.17 hits 1 # trans-Delta2-decenoyl-CoA hydratase
+   1.1.1.35 hits 1 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+path PWY0-1479 fam0 4 fam-found 1 # tRNA processing
+   3.1.26.12 hits 1 # ribonuclease
+path PWY-7800 fam0 5 fam-found 1 # Ac/N-end rule pathway
+   3.4.11.18 hits 1 # methionine aminopeptidase
+path PWY-8181 fam0 7 fam-found 2 # 2-methyl-branched fatty acid beta-oxidation
+   4.2.1.17 hits 1 # trans-Delta2-decenoyl-CoA hydratase
+   1.1.1.35 hits 1 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+path PWY-5529 fam0 15 fam-found 1 # superpathway of bacteriochlorophyll a biosynthesis
+   4.1.1.37 hits 1 # uroporphyrinogen decarboxylase
+path ALL-CHORISMATE-PWY fam0 52 fam-found 3 # superpathway of chorismate metabolism
+   2.5.1.54 hits 2 # 3-deoxy-7-phosphoheptulonate synthase
+   3.5.4.16 hits 1 # GTP cyclohydrolase
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+path PRPP-PWY fam0 37 fam-found 2 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   6.3.5.5 hits 1 # carbamoyl phosphate synthetase
+   6.3.5.3 hits 1 # phosphoribosylformylglycinamide synthetase
+path PWY-6292 fam0 4 fam-found 1 # superpathway of L-cysteine biosynthesis (mammalian)
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+path THREOCAT-PWY fam0 14 fam-found 2 # superpathway of L-threonine metabolism
+   2.2.1.6 hits 2 # acetolactate synthase
+   1.1.1.86 hits 1 # (R)-2,3-dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+path THISYN-PWY fam0 9 fam-found 1 # superpathway of thiamine diphosphate biosynthesis I
+   2.8.1.10 hits 1 # 1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase

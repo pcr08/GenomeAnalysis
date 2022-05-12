@@ -1,0 +1,8 @@
+path PWY-5188 fam0 5 fam-found 1 # tetrapyrrole biosynthesis I (from glutamate)
+   1.2.1.70 hits 1 # glutamyl-tRNA reductase
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 1 # glutamine synthetase

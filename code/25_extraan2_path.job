@@ -1,0 +1,166 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J preparation_pathway
+#SBATCH -t 48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for differential expression
+#load the necessary modules
+
+module load bioinfo-tools
+#preparation, get a file with contig name and EC value
+
+
+#agafar gens de /home/pcr98/GenomeAnalysis/GenomeAnalysis/extra_analysis/extraan1/D1, si estan expressats quedarse el nom i buscar el nom en el functional per obtenir la linia i run minpath nomes amb aquestes linies
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/extra_analysis/extraan1/D1
+for f in *
+do
+echo $f
+bin=$(echo $f | cut -f1 -d ".")
+echo $bin
+id=$(cut -f1 $f)
+IFS=" " read -ra idd <<< $id
+value=$(cut -f2 $f)
+IFS=" " read -ra vall <<< $value
+i=0
+echo ${vall[$i]} 
+while [ ${vall[$i]} -ne 0 ]
+do
+echo ${idd[$i]}        ${vall[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try/${bin}_express.counts
+i=$((i+1))
+done
+done
+
+
+cd /home/pcr98/GenomeAnalysis/GenomeAnalysis/extra_analysis/extraan1/D3
+for f in *
+do
+echo $f
+bin=$(echo $f | cut -f1 -d ".")
+echo $bin
+id=$(cut -f1 $f)
+IFS=" " read -ra idd <<< $id
+value=$(cut -f2 $f)
+IFS=" " read -ra vall <<< $value
+i=0
+echo ${vall[$i]}
+while [ ${vall[$i]} -ne 0 ]
+do
+echo ${idd[$i]}        ${vall[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try/${bin}_express.counts
+i=$((i+1))
+done
+done
+
+
+#take the functional line from egnoggmaper from the expressed genes and just take the ones with EC value
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try
+for f in *.counts
+do
+echo $f
+bin=$(echo $f | cut -f3 -d "_")
+echo $bin
+id=$(cut -f1 -d " " $f)
+echo $id
+IFS=" " read -ra idd <<< $id
+length1=${#idd[@]}
+echo "length $length1"
+for (( i=0; i<$length1; i++ ));
+do
+echo ${idd[$i]}
+lin=$(grep "${idd[$i]};" /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize/D1.normalize.${bin}.fa.emapper.gff)
+#echo $lin
+echo $lin >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try/${bin}_funct.gff
+done
+done 
+
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try
+for f in *.counts
+do
+echo $f
+bin=$(echo $f | cut -f3 -d "_")
+echo $bin
+id=$(cut -f1 -d " " $f)
+echo $id
+IFS=" " read -ra idd <<< $id
+length1=${#idd[@]}
+echo "length $length1"
+for (( i=0; i<$length1; i++ ));
+do
+echo ${idd[$i]}
+lin=$(grep "${idd[$i]};" /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize/D3.normalize.${bin}.fa.emapper.gff )
+#echo $lin
+echo $lin >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try/${bin}_funct.gff
+done
+done
+
+#preparation, get a file with contig name and EC value
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f1 -d "_")
+echo $bin
+#to get the contig name
+val1=$(grep 'em_EC=[^;]' $f | cut -f9 -d " " | cut -f1 -d ';'| sed 's/ID=//g')
+IFS=" " read -ra val3 <<< $val1
+#get EC value
+val2=$(grep 'em_EC=[^;]' $f | cut -f9- -d " " | awk -F "em_EC" '{print $2}' | cut -d ';' -f1 | sed 's/=//g')
+IFS=" " read -ra val4 <<< $val2
+
+length3=${#val3[@]}
+echo "length $length3"
+for (( i=0; i<$length3; i++ ));
+do
+#echo ${val3[$i]}       ${val4[$i]}
+echo ${val3[$i]}        ${val4[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try/path.${bin}.ec
+done
+done
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f1 -d "_")
+echo $bin
+#to get the contig name
+val1=$(grep 'em_EC=[^;]' $f | cut -f9 -d " " | cut -f1 -d ';'| sed 's/ID=//g')
+IFS=" " read -ra val3 <<< $val1
+#get EC value
+val2=$(grep 'em_EC=[^;]' $f | cut -f9- -d " " | awk -F "em_EC" '{print $2}' | cut -d ';' -f1 | sed 's/=//g')
+IFS=" " read -ra val4 <<< $val2
+
+length3=${#val3[@]}
+echo "length $length3"
+for (( i=0; i<$length3; i++ ));
+do
+#echo ${val3[$i]}       ${val4[$i]}
+echo ${val3[$i]}        ${val4[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try/path.${bin}.ec
+done
+done
+
+#run MinPath python ../MinPath.py -ec demo.ec -report demo.ec.minpath -details demo.ec.minpath.details
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/try
+for f in *.ec
+do
+echo $f
+bin=$(echo $f | cut -f2 -d ".")
+echo $bin
+python /home/pcr98/GenomeAnalysis/GenomeAnalysis/MinPath/MinPath.py -ec $f -report report.${bin}.minpath -details ${bin}.minpath.details
+done
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/try
+for f in *.ec
+do
+echo $f
+bin=$(echo $f | cut -f2 -d ".")
+echo $bin
+python /home/pcr98/GenomeAnalysis/GenomeAnalysis/MinPath/MinPath.py -ec $f -report report.${bin}.minpath -details ${bin}.minpath.details
+done
+
+

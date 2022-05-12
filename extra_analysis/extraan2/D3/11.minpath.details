@@ -1,0 +1,91 @@
+path BETSYN-PWY fam0 2 fam-found 1 # glycine betaine biosynthesis I (Gram-negative bacteria)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY-3722 fam0 1 fam-found 1 # glycine betaine biosynthesis II (Gram-positive bacteria)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY1F-353 fam0 1 fam-found 1 # glycine betaine biosynthesis III (plants)
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY-40 fam0 2 fam-found 1 # putrescine biosynthesis I
+   3.5.3.11 hits 1 # agmatinase
+path BRANCHED-CHAIN-AA-SYN-PWY fam0 7 fam-found 1 # superpathway of branched chain amino acid biosynthesis
+   2.3.3.13 hits 1 # 2-isopropylmalate synthase
+path TRNA-CHARGING-PWY fam0 20 fam-found 1 # tRNA charging
+   6.1.1.5 hits 1 # isoleucine--tRNA ligase
+path PWY-6981 fam0 9 fam-found 1 # chitin biosynthesis
+   2.6.1.16 hits 1 # glucosamine-fructose-6-phosphate aminotransferase
+path CALVIN-PWY fam0 11 fam-found 1 # Calvin-Benson-Bassham cycle
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path COLANSYN-PWY fam0 9 fam-found 1 # colanic acid building blocks biosynthesis
+   5.3.1.8 hits 1 # mannose-6-phosphate isomerase
+path PWY-7928 fam0 2 fam-found 1 # nickel cofactor biosynthesis
+   4.99.1.12 hits 1 # pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase
+path PWYG-321 fam0 23 fam-found 1 # mycolate biosynthesis
+   2.1.1.79 hits 1 # cis-methoxy-C59-meroacyl-[acp] synthase
+path PWY-4983 fam0 3 fam-found 1 # nitric oxide biosynthesis II (mammals)
+   4.3.2.1 hits 1 # argininosuccinate lyase
+path PWY-5134 fam0 4 fam-found 1 # superpathway of bitter acids biosynthesis
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-21 fam0 2 fam-found 1 # ethanol degradation II
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-161 fam0 2 fam-found 1 # ethanol degradation III
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-162 fam0 2 fam-found 1 # ethanol degradation IV
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY0-381 fam0 2 fam-found 2 # glycerol and glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+   2.7.1.30 hits 1 # glycerol kinase
+path PWY-4261 fam0 2 fam-found 1 # glycerol degradation I
+   2.7.1.30 hits 1 # glycerol kinase
+path PWY-6952 fam0 1 fam-found 1 # glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-7431 fam0 2 fam-found 1 # aromatic biogenic amine degradation (bacteria)
+   1.4.3.4 hits 1 # tyramine oxidase
+path PWY0-1313 fam0 1 fam-found 1 # acetate conversion to acetyl-CoA
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path DETOX1-PWY-1 fam0 3 fam-found 1 # reactive oxygen species degradation
+   1.11.1.9 hits 1 # glutathione peroxidase
+path PWY-7383 fam0 2 fam-found 1 # anaerobic energy metabolism (invertebrates, cytosol)
+   4.1.1.32 hits 1 # phosphoenolpyruvate carboxykinase (GTP)
+path P21-PWY fam0 1 fam-found 1 # pentose phosphate pathway (partial)
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path PWY66-398 fam0 8 fam-found 1 # TCA cycle III (animals)
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-6573 fam0 4 fam-found 1 # chondroitin sulfate degradation (metazoa)
+   3.2.1.52 hits 1 # beta-N-acetylhexosaminidase
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY0-781 fam0 24 fam-found 2 # aspartate superpathway
+   6.3.5.1 hits 1 # NAD+ synthetase, glutamine dependent
+   4.2.3.1 hits 1 # threonine synthase
+path PWY-7494 fam0 2 fam-found 1 # choline degradation IV
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path P542-PWY fam0 2 fam-found 1 # choline-O-sulfate degradation
+   1.2.1.8 hits 1 # betaine aldehyde dehydrogenase
+path PWY-6385 fam0 12 fam-found 2 # peptidoglycan biosynthesis III (mycobacteria)
+   6.3.2.9 hits 1 # UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase
+   6.3.2.13 hits 1 # UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+path PWY-7194 fam0 2 fam-found 1 # pyrimidine nucleobases salvage II
+   2.4.2.9 hits 1 # uracil phosphoribosyltransferase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path HEXITOLDEGSUPER-PWY fam0 15 fam-found 3 # superpathway of hexitol degradation (bacteria)
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   2.7.1.40 hits 1 # pyruvate kinase
+path PRPP-PWY fam0 37 fam-found 4 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   2.4.2.14 hits 1 # amidophosphoribosyltransferase
+   3.6.1.31 hits 1 # phosphoribosyl-ATP pyrophosphatase
+   1.17.4.1 hits 1 # CDP reductase
+   6.3.4.4 hits 1 # adenylosuccinate synthase
+path PWY-6292 fam0 4 fam-found 1 # superpathway of L-cysteine biosynthesis (mammalian)
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+path PWY66-409 fam0 11 fam-found 2 # superpathway of purine nucleotide salvage
+   2.7.1.20 hits 1 # adenosine kinase
+   1.17.4.1 hits 1 # CDP reductase

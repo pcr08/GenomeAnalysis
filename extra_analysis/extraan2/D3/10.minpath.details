@@ -1,0 +1,72 @@
+path COMPLETE-ARO-PWY fam0 18 fam-found 1 # superpathway of aromatic amino acid biosynthesis
+   2.5.1.54 hits 1 # 3-deoxy-7-phosphoheptulonate synthase
+path TRNA-CHARGING-PWY fam0 20 fam-found 2 # tRNA charging
+   6.1.1.20 hits 1 # phenylalanine--tRNA ligase
+   6.1.1.1 hits 1 # tyrosine--tRNA ligase
+path PWY-6164 fam0 2 fam-found 1 # 3-dehydroquinate biosynthesis I
+   2.5.1.54 hits 1 # 3-deoxy-7-phosphoheptulonate synthase
+path COLANSYN-PWY fam0 9 fam-found 1 # colanic acid building blocks biosynthesis
+   4.2.1.47 hits 1 # GDP-mannose 4,6-dehydratase
+path PANTOSYN-PWY fam0 8 fam-found 1 # superpathway of coenzyme A biosynthesis I (bacteria)
+   6.3.2.1 hits 1 # pantothenate synthetase
+path PWY-6285 fam0 11 fam-found 1 # superpathway of fatty acids biosynthesis (E. coli)
+   2.3.1.179 hits 2 # 3-oxo-cis-vaccenoyl-[acp] synthase
+path PWY-7902 fam0 3 fam-found 1 # glucosylglycerol biosynthesis
+   2.7.7.27 hits 1 # glucose 1-phosphate adenylyltransferase
+path PWY-6703 fam0 4 fam-found 1 # preQ0 biosynthesis
+   4.3.99.3 hits 1 # 7-carboxy-7-deazaguanine synthase
+path PWY-5188 fam0 5 fam-found 1 # tetrapyrrole biosynthesis I (from glutamate)
+   5.4.3.8 hits 1 # glutamate-1-semialdehyde 2,1-aminomutase
+path PWY-5386 fam0 2 fam-found 1 # methylglyoxal degradation I
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-5386-1 fam0 2 fam-found 1 # methylglyoxal degradation VIII
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path GLCMANNANAUT-PWY fam0 5 fam-found 1 # superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation
+   3.5.1.25 hits 1 # N-acetylglucosamine-6-phosphate deacetylase
+path PYRUVDEHYD-PWY fam0 3 fam-found 2 # pyruvate decarboxylation to acetyl CoA I
+   1.8.1.4 hits 1 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+   1.2.4.1 hits 1 # pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase
+path DETOX1-PWY-1 fam0 3 fam-found 1 # reactive oxygen species degradation
+   1.11.1.9 hits 1 # glutathione peroxidase
+path PWY-5464 fam0 11 fam-found 2 # superpathway of cytosolic glycolysis (plants), pyruvate dehydrogenase and TCA cycle
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+   4.2.1.2 hits 1 # fumarase
+path PWY-6573 fam0 4 fam-found 1 # chondroitin sulfate degradation (metazoa)
+   3.1.6.4 hits 1 # keratan galactose-6-sulfatase
+path PWY0-1479 fam0 4 fam-found 2 # tRNA processing
+   3.1.26.12 hits 1 # ribonuclease
+   3.1.13.5 hits 1 # RNase T exonuclease
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 3 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 3 # glutamine synthetase
+path PWY0-781 fam0 24 fam-found 2 # aspartate superpathway
+   4.3.3.7 hits 1 # 4-hydroxy-tetrahydrodipicolinate synthase
+   4.2.3.1 hits 1 # threonine synthase
+path PEPTIDOGLYCANSYN-PWY fam0 9 fam-found 1 # peptidoglycan biosynthesis I (meso-diaminopimelate containing)
+   1.3.1.98 hits 1 # UDP-N-acetylenolpyruvoylglucosamine reductase
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 3 # glutamine synthetase
+path PWY-7317 fam0 17 fam-found 2 # superpathway of dTDP-glucose-derived O-antigen building blocks biosynthesis
+   2.7.7.24 hits 1 # dTDP-glucose pyrophosphorylase
+   2.6.1.59 hits 1 # dTDP-4-dehydro-6-deoxy-D-glucose transaminase
+path FUC-RHAMCAT-PWY fam0 10 fam-found 1 # superpathway of fucose and rhamnose degradation
+   2.7.1.5 hits 1 # rhamnulokinase
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path PRPP-PWY fam0 37 fam-found 7 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   6.3.5.5 hits 1 # carbamoyl phosphate synthetase
+   2.7.6.1 hits 1 # ribose-phosphate diphosphokinase
+   2.4.2.14 hits 1 # amidophosphoribosyltransferase
+   6.3.3.1 hits 1 # phosphoribosylformylglycinamide cyclo-ligase
+   6.3.2.6 hits 1 # phosphoribosylaminoimidazole-succinocarboxamide synthase
+   2.4.2.17 hits 1 # ATP phosphoribosyltransferase
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+path PWY-5004 fam0 11 fam-found 2 # superpathway of L-citrulline metabolism
+   1.2.1.41 hits 1 # glutamate-5-semialdehyde dehydrogenase
+   4.3.2.1 hits 1 # argininosuccinate lyase
+path SULFATE-CYS-PWY fam0 9 fam-found 1 # superpathway of sulfate assimilation and cysteine biosynthesis
+   2.5.1.47 hits 1 # O-acetylserine sulfhydrylase
+path PWY-7392 fam0 11 fam-found 2 # taxadiene biosynthesis (engineered)
+   1.1.1.267 hits 1 # 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+   4.6.1.12 hits 1 # 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase

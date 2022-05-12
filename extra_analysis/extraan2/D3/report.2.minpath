@@ -1,0 +1,146 @@
+path PWY-8138 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  polyphosphate metabolism
+path P101-PWY any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  ectoine biosynthesis
+path PWY-6562 any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  norspermidine biosynthesis
+path PWY-6565 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of polyamine biosynthesis III
+path PWY-5344 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  L-homocysteine biosynthesis
+path HOMOSERSYN-PWY any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  L-homoserine biosynthesis
+path COMPLETE-ARO-PWY any n/a  naive 1  minpath 0  fam0  18  fam-found  2  name  superpathway of aromatic amino acid biosynthesis
+path BRANCHED-CHAIN-AA-SYN-PWY any n/a  naive 1  minpath 0  fam0  7  fam-found  3  name  superpathway of branched chain amino acid biosynthesis
+path P4-PWY any n/a  naive 1  minpath 0  fam0  17  fam-found  4  name  superpathway of L-lysine, L-threonine and L-methionine biosynthesis I
+path PWY-724 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of L-lysine, L-threonine and L-methionine biosynthesis II
+path PWY-3481 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of L-phenylalanine and L-tyrosine biosynthesis
+path PWY-821 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of sulfur amino acid biosynthesis (Saccharomyces cerevisiae)
+path TRNA-CHARGING-PWY any n/a  naive 1  minpath 1  fam0  20  fam-found  6  name  tRNA charging
+path PWY-6160 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  3-dehydroquinate biosynthesis II (archaea)
+path PWY-6165 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  chorismate biosynthesis II (archaea)
+path PWY-8088 any n/a  naive 1  minpath 1  fam0  4  fam-found  2  name  dipicolinate biosynthesis
+path CALVIN-PWY any n/a  naive 1  minpath 0  fam0  11  fam-found  2  name  Calvin-Benson-Bassham cycle
+path NAGLIPASYN-PWY any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  lipid IVA biosynthesis (E. coli)
+path KDO-NAGLIPASYN-PWY any n/a  naive 1  minpath 0  fam0  13  fam-found  2  name  superpathway of (Kdo)2-lipid A biosynthesis
+path GLUTATHIONESYN-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  glutathione biosynthesis
+path PWY-7250 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  [2Fe-2S] iron-sulfur cluster biosynthesis
+path FASYN-ELONG-PWY any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  fatty acid elongation -- saturated
+path PWY-7094 any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  fatty acid salvage
+path PWYG-321 any n/a  naive 1  minpath 0  fam0  23  fam-found  1  name  mycolate biosynthesis
+path PWY-7388 any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)
+path PWY0-881 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of fatty acid biosynthesis I (E. coli)
+path PWY-5156 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of fatty acid biosynthesis II (plant)
+path PWY-6285 any n/a  naive 1  minpath 0  fam0  11  fam-found  2  name  superpathway of fatty acids biosynthesis (E. coli)
+path PWY-6113 any n/a  naive 1  minpath 0  fam0  26  fam-found  1  name  superpathway of mycolate biosynthesis
+path PWY66-430 any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  tetradecanoate biosynthesis (mitochondria)
+path PWY-7902 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  glucosylglycerol biosynthesis
+path PWY-7411 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  phosphatidate biosynthesis (yeast)
+path PHOSLIPSYN-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of phospholipid biosynthesis I (bacteria)
+path PHOSLIPSYN2-PWY any n/a  naive 1  minpath 0  fam0  14  fam-found  1  name  superpathway of phospholipid biosynthesis II (plants)
+path PWY0-1264 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  biotin-carboxyl carrier protein assembly
+path TRIGLSYN-PWY any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  diacylglycerol and triacylglycerol biosynthesis
+path LPSSYN-PWY any n/a  naive 1  minpath 1  fam0  18  fam-found  2  name  superpathway of lipopolysaccharide biosynthesis
+path PPGPPMET-PWY any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  ppGpp metabolism
+path PWY-6519 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  8-amino-7-oxononanoate biosynthesis I
+path P125-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of (R,R)-butanediol biosynthesis
+path PWY-6396 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of 2,3-butanediol biosynthesis
+path PWY-8043 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ophthalmate biosynthesis
+path POLYISOPRENSYN-PWY any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  polyisoprenoid biosynthesis (E. coli)
+path PWY-7717 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  3-hydroxy-4-methyl-anthranilate biosynthesis I
+path PWY-6627 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  salinosporamide A biosynthesis
+path PWY-5134 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  superpathway of bitter acids biosynthesis
+path PWY-6661 any n/a  naive 1  minpath 1  fam0  3  fam-found  2  name  4-hydroxy-2(1H)-quinolone biosynthesis
+path PWY-6703 any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  preQ0 biosynthesis
+path PWY-6662 any n/a  naive 1  minpath 0  fam0  5  fam-found  2  name  superpathway of quinolone and alkylquinolone biosynthesis
+path PWY-7218 any n/a  naive 1  minpath 0  fam0  21  fam-found  2  name  photosynthetic 3-hydroxybutanoate biosynthesis (engineered)
+path PWY-6146 any n/a  naive 1  minpath 0  fam0  20  fam-found  2  name  Methanobacterium thermoautotrophicum biosynthetic metabolism
+path PWY66-21 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation II
+path PWY66-161 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation III
+path PWY66-162 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ethanol degradation IV
+path GLYCOL-GLYOXDEG-PWY any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  superpathway of glycol metabolism and degradation
+path PWY-6962 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  superpathway of trimethylamine degradation
+path 3-HYDROXYPHENYLACETATE-DEGRADATION-PWY any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  4-hydroxyphenylacetate degradation
+path P345-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  aldoxime degradation
+path BENZCOA-PWY any n/a  naive 1  minpath 1  fam0  14  fam-found  2  name  anaerobic aromatic compound degradation (Thauera aromatica)
+path PWY-7750 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  carbon monoxide oxidation to CO2
+path PWY0-1313 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  acetate conversion to acetyl-CoA
+path PYRUVDEHYD-PWY any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  pyruvate decarboxylation to acetyl CoA I
+path P441-PWY any n/a  naive 1  minpath 0  fam0  21  fam-found  2  name  superpathway of N-acetylneuraminate degradation
+path GAMMAHEXCHLORDEG-PWY any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  gamma-hexachlorocyclohexane degradation
+path PWY-5484 any n/a  naive 1  minpath 0  fam0  11  fam-found  2  name  glycolysis II (from fructose 6-phosphate)
+path ANAGLYCOLYSIS-PWY any n/a  naive 1  minpath 0  fam0  10  fam-found  2  name  glycolysis III (from glucose)
+path PWY-1042 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  glycolysis IV
+path P341-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  2  name  glycolysis V (Pyrococcus)
+path PHOTOALL-PWY any n/a  naive 1  minpath 0  fam0  15  fam-found  2  name  oxygenic photosynthesis
+path PWY-5084 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  2-oxoglutarate decarboxylation to succinyl-CoA
+path PWY-6969 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  TCA cycle V (2-oxoglutarate synthase)
+path PWY0-1517 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  sedoheptulose bisphosphate bypass
+path PWY-5464 any n/a  naive 1  minpath 0  fam0  11  fam-found  1  name  superpathway of cytosolic glycolysis (plants), pyruvate dehydrogenase and TCA cycle
+path PWY-561 any n/a  naive 1  minpath 0  fam0  13  fam-found  1  name  superpathway of glyoxylate cycle and fatty acid degradation
+path GLYCOCAT-PWY any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  glycogen degradation I
+path PWY-5941 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  glycogen degradation II
+path PWY-7286 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  7-(3-amino-3-carboxypropyl)-wyosine biosynthesis
+path PWY-7285 any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  methylwyosine biosynthesis
+path PWY-6829 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  tRNA methylation (yeast)
+path PWY0-1479 any n/a  naive 1  minpath 1  fam0  4  fam-found  2  name  tRNA processing
+path PWY-7801 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  N-end rule pathway I (prokaryotic)
+path PWY-5505 any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  L-glutamate and L-glutamine biosynthesis
+path PWY-7210 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  pyrimidine deoxyribonucleotides biosynthesis from CTP
+path PWY-7184 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  pyrimidine deoxyribonucleotides de novo biosynthesis I
+path PWY-6545 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  pyrimidine deoxyribonucleotides de novo biosynthesis III
+path P381-PWY any n/a  naive 1  minpath 1  fam0  17  fam-found  1  name  adenosylcobalamin biosynthesis II (aerobic)
+path PWY-6963 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ammonia assimilation cycle I
+path AMMASSIM-PWY any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  ammonia assimilation cycle III
+path PWY0-781 any n/a  naive 1  minpath 1  fam0  24  fam-found  4  name  aspartate superpathway
+path BIOTIN-BIOSYNTHESIS-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  2  name  biotin biosynthesis I
+path PWY-5005 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  biotin biosynthesis II
+path PWY-7124 any n/a  naive 1  minpath 0  fam0  21  fam-found  2  name  ethene biosynthesis V (engineered)
+path PWY-4041 any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  gamma-glutamyl cycle
+path PWY-6142 any n/a  naive 1  minpath 1  fam0  11  fam-found  2  name  gluconeogenesis II (Methanobacterium thermoautotrophicum)
+path ANAEROFRUCAT-PWY any n/a  naive 1  minpath 0  fam0  11  fam-found  2  name  homolactic fermentation
+path HSERMETANA-PWY any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  L-methionine biosynthesis III
+path PWY-6309 any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  L-tryptophan degradation XI (mammalian, via kynurenine)
+path NADSYN-PWY any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  NAD de novo biosynthesis II (from tryptophan)
+path PEPTIDOGLYCANSYN-PWY any n/a  naive 1  minpath 1  fam0  9  fam-found  1  name  peptidoglycan biosynthesis I (meso-diaminopimelate containing)
+path PWY-5265 any n/a  naive 1  minpath 0  fam0  16  fam-found  1  name  peptidoglycan biosynthesis II (staphylococci)
+path PWY-5044 any n/a  naive 1  minpath 1  fam0  3  fam-found  1  name  purine nucleotides degradation I (plants)
+path PWY-6353 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  purine nucleotides degradation II (aerobic)
+path SUCSYN-PWY any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  sucrose biosynthesis I (from photosynthesis)
+path P344-PWY any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of acrylonitrile degradation
+path PWY-7229 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of adenosine nucleotides de novo biosynthesis I
+path PWY-6126 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of adenosine nucleotides de novo biosynthesis II
+path PWY-3282 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of ammonia assimilation (plants)
+path PWY-7345 any n/a  naive 1  minpath 0  fam0  14  fam-found  2  name  superpathway of anaerobic sucrose degradation
+path PWY-5529 any n/a  naive 1  minpath 1  fam0  15  fam-found  1  name  superpathway of bacteriochlorophyll a biosynthesis
+path ALL-CHORISMATE-PWY any n/a  naive 1  minpath 1  fam0  52  fam-found  5  name  superpathway of chorismate metabolism
+path PWY-4221 any n/a  naive 1  minpath 1  fam0  8  fam-found  1  name  superpathway of coenzyme A biosynthesis II (plants)
+path PWY-7228 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of guanosine nucleotides de novo biosynthesis I
+path PWY-6125 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of guanosine nucleotides de novo biosynthesis II
+path PWY-6595 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  superpathway of guanosine nucleotides degradation (plants)
+path HEXITOLDEGSUPER-PWY any n/a  naive 1  minpath 0  fam0  15  fam-found  2  name  superpathway of hexitol degradation (bacteria)
+path PRPP-PWY any n/a  naive 1  minpath 0  fam0  37  fam-found  3  name  superpathway of histidine, purine, and pyrimidine biosynthesis
+path PWY-6293 any n/a  naive 1  minpath 0  fam0  5  fam-found  1  name  superpathway of L-cysteine biosynthesis (fungi)
+path PWY-6292 any n/a  naive 1  minpath 1  fam0  4  fam-found  1  name  superpathway of L-cysteine biosynthesis (mammalian)
+path METSYN-PWY any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of L-homoserine and L-methionine biosynthesis
+path PWY-3001 any n/a  naive 1  minpath 1  fam0  10  fam-found  5  name  superpathway of L-isoleucine biosynthesis I
+path PWY-5345 any n/a  naive 1  minpath 0  fam0  10  fam-found  2  name  superpathway of L-methionine biosynthesis (by sulfhydrylation)
+path PWY-5347 any n/a  naive 1  minpath 0  fam0  8  fam-found  1  name  superpathway of L-methionine biosynthesis (transsulfuration)
+path PWY-5328 any n/a  naive 1  minpath 0  fam0  14  fam-found  1  name  superpathway of L-methionine salvage and degradation
+path PWY-6628 any n/a  naive 1  minpath 0  fam0  10  fam-found  1  name  superpathway of L-phenylalanine biosynthesis
+path THRESYN-PWY any n/a  naive 1  minpath 0  fam0  5  fam-found  2  name  superpathway of L-threonine biosynthesis
+path THREOCAT-PWY any n/a  naive 1  minpath 0  fam0  14  fam-found  3  name  superpathway of L-threonine metabolism
+path PWY-6629 any n/a  naive 1  minpath 0  fam0  13  fam-found  1  name  superpathway of L-tryptophan biosynthesis
+path PWY-6630 any n/a  naive 1  minpath 0  fam0  10  fam-found  1  name  superpathway of L-tyrosine biosynthesis
+path PWY-3502 any n/a  naive 1  minpath 0  fam0  12  fam-found  1  name  superpathway of NAD biosynthesis in eukaryotes
+path PWY-5257 any n/a  naive 1  minpath 0  fam0  33  fam-found  1  name  superpathway of pentose and pentitol degradation
+path PWY66-409 any n/a  naive 1  minpath 0  fam0  11  fam-found  1  name  superpathway of purine nucleotide salvage
+path PWY-841 any n/a  naive 1  minpath 0  fam0  17  fam-found  1  name  superpathway of purine nucleotides de novo biosynthesis I
+path DENOVOPURINE2-PWY any n/a  naive 1  minpath 1  fam0  18  fam-found  2  name  superpathway of purine nucleotides de novo biosynthesis II
+path P165-PWY any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of purines degradation in plants
+path PWY0-845 any n/a  naive 1  minpath 1  fam0  8  fam-found  1  name  superpathway of pyridoxal 5'-phosphate biosynthesis and salvage
+path PWY-7211 any n/a  naive 1  minpath 0  fam0  14  fam-found  2  name  superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis
+path PWY0-166 any n/a  naive 1  minpath 0  fam0  7  fam-found  1  name  superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)
+path PWY-7208 any n/a  naive 1  minpath 0  fam0  4  fam-found  1  name  superpathway of pyrimidine nucleobases salvage
+path PWY-7209 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  superpathway of pyrimidine ribonucleosides degradation
+path PWY-7196 any n/a  naive 1  minpath 1  fam0  9  fam-found  2  name  superpathway of pyrimidine ribonucleosides salvage
+path PWY0-162 any n/a  naive 1  minpath 1  fam0  9  fam-found  2  name  superpathway of pyrimidine ribonucleotides de novo biosynthesis
+path MET-SAM-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of S-adenosyl-L-methionine biosynthesis
+path PWY-6612 any n/a  naive 1  minpath 0  fam0  9  fam-found  2  name  superpathway of tetrahydrofolate biosynthesis
+path FOLSYN-PWY any n/a  naive 1  minpath 0  fam0  10  fam-found  1  name  superpathway of tetrahydrofolate biosynthesis and salvage
+path UBISYN-PWY any n/a  naive 1  minpath 0  fam0  12  fam-found  1  name  superpathway of ubiquinol-8 biosynthesis (early decarboxylation)
+path PWY-6284 any n/a  naive 1  minpath 1  fam0  7  fam-found  2  name  superpathway of unsaturated fatty acids biosynthesis (E. coli)

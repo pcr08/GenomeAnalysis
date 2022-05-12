@@ -1,0 +1,633 @@
+path PWY-801 fam0 3 fam-found 2 # homocysteine and cysteine interconversion
+   4.4.1.1 hits 1 # cystathionine gamma-lyase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+path PWY-8138 fam0 1 fam-found 1 # polyphosphate metabolism
+   2.7.4.1 hits 4 # polyphosphate kinase
+path PWY-5114 fam0 8 fam-found 1 # UDP-sugars interconversion
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase
+path BETSYN-PWY fam0 2 fam-found 1 # glycine betaine biosynthesis I (Gram-negative bacteria)
+   1.1.99.1 hits 2 # choline dehydrogenase
+path PWY-46 fam0 2 fam-found 1 # putrescine biosynthesis III
+   4.1.1.17 hits 1 # ornithine decarboxylase
+path POLYAMINSYN3-PWY fam0 7 fam-found 2 # superpathway of polyamine biosynthesis II
+   3.5.1.53 hits 1 # N-carbamoylputrescine amidohydrolase
+   4.1.1.17 hits 1 # ornithine decarboxylase
+path PWY-5344 fam0 2 fam-found 2 # L-homocysteine biosynthesis
+   2.3.1.31 hits 1 # homoserine O-acetyltransferase
+   2.5.1.49 hits 1 # O-acetylhomoserine sulfhydrylase
+path HOMOSERSYN-PWY fam0 3 fam-found 3 # L-homoserine biosynthesis
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+path BRANCHED-CHAIN-AA-SYN-PWY fam0 7 fam-found 5 # superpathway of branched chain amino acid biosynthesis
+   2.2.1.6 hits 4 # acetolactate synthase
+   1.1.1.86 hits 2 # (R)-2,3-dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+   4.2.1.9 hits 2 # 2,3-dihydroxy-3-methylvalerate hydro-lyase
+   2.6.1.42 hits 2 # isoleucine transaminase
+   2.3.3.13 hits 4 # 2-isopropylmalate synthase
+path P4-PWY fam0 17 fam-found 11 # superpathway of L-lysine, L-threonine and L-methionine biosynthesis I
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   4.3.3.7 hits 1 # 4-hydroxy-tetrahydrodipicolinate synthase
+   1.17.1.8 hits 1 # 4-hydroxy-tetrahydrodipicolinate reductase
+   2.3.1.117 hits 1 # tetrahydrodipicolinate succinylase
+   5.1.1.7 hits 2 # diaminopimelate epimerase
+   4.1.1.20 hits 1 # diaminopimelate decarboxylase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+   2.7.1.39 hits 1 # homoserine kinase
+path PWY-724 fam0 7 fam-found 6 # superpathway of L-lysine, L-threonine and L-methionine biosynthesis II
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   2.6.1.83 hits 1 # L,L-diaminopimelate aminotransferase
+   4.1.1.20 hits 1 # diaminopimelate decarboxylase
+   2.7.1.39 hits 1 # homoserine kinase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+path PWY-3481 fam0 2 fam-found 1 # superpathway of L-phenylalanine and L-tyrosine biosynthesis
+   5.4.99.5 hits 1 # chorismate mutase
+path SER-GLYSYN-PWY fam0 4 fam-found 2 # superpathway of L-serine and glycine biosynthesis I
+   2.6.1.52 hits 2 # 3-phosphoserine aminotransferase
+   2.1.2.1 hits 3 # 5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+path TRNA-CHARGING-PWY fam0 20 fam-found 17 # tRNA charging
+   6.1.1.14 hits 2 # glycine--tRNA ligase
+   6.1.1.21 hits 3 # histidine--tRNA ligase
+   6.1.1.6 hits 4 # lysine--tRNA ligase
+   6.1.1.20 hits 1 # phenylalanine--tRNA ligase
+   6.1.1.15 hits 3 # proline--tRNA ligase
+   6.1.1.11 hits 1 # L-serine:tRNASer ligase (AMP-forming)
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+   6.1.1.2 hits 2 # tryptophan--tRNA ligase
+   6.1.1.1 hits 1 # tyrosine--tRNA ligase
+   6.1.1.12 hits 2 # aspartate--tRNA ligase
+   6.1.1.22 hits 2 # asparagine--tRNA ligase
+   6.1.1.7 hits 2 # alanine--tRNA ligase
+   6.1.1.9 hits 3 # valine--tRNA ligase
+   6.1.1.4 hits 1 # leucine--tRNA ligase
+   6.1.1.5 hits 4 # isoleucine--tRNA ligase
+   6.1.1.16 hits 2 # cysteine--tRNA ligase
+   6.1.1.19 hits 1 # arginine--tRNA ligase
+path PWY-6163 fam0 5 fam-found 3 # chorismate biosynthesis from 3-dehydroquinate
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+   4.2.3.5 hits 2 # chorismate synthase
+path PWY-6165 fam0 8 fam-found 4 # chorismate biosynthesis II (archaea)
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+path PWY-8088 fam0 4 fam-found 3 # dipicolinate biosynthesis
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   4.3.3.7 hits 1 # 4-hydroxy-tetrahydrodipicolinate synthase
+path PWY-6707 fam0 2 fam-found 1 # gallate biosynthesis
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+path PWY-6333 fam0 1 fam-found 1 # acetaldehyde biosynthesis I
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path PWY-1121 fam0 13 fam-found 1 # suberin monomers biosynthesis
+   2.1.1.104 hits 1 # caffeoyl-CoA O-methyltransferase
+path PWY-7250 fam0 3 fam-found 1 # [2Fe-2S] iron-sulfur cluster biosynthesis
+   2.8.1.7 hits 1 # cysteine desulfurase
+path PWY-8051 fam0 9 fam-found 2 # anandamide biosynthesis I
+   2.3.1.51 hits 2 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-7094 fam0 6 fam-found 3 # fatty acid salvage
+   1.3.8.7 hits 2 # medium-chain acyl-CoA dehydrogenase
+   4.2.1.17 hits 1 # trans-Delta2-decenoyl-CoA hydratase
+   1.1.1.35 hits 4 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+path FASYN-INITIAL-PWY fam0 4 fam-found 2 # superpathway of fatty acid biosynthesis initiation (E. coli)
+   2.3.1.39 hits 3 # [acyl-carrier-protein] S-malonyltransferase
+   2.3.1.180 hits 1 # beta-ketoacyl-ACP synthase
+path PWY-6285 fam0 11 fam-found 4 # superpathway of fatty acids biosynthesis (E. coli)
+   2.3.1.39 hits 3 # [acyl-carrier-protein] S-malonyltransferase
+   2.3.1.180 hits 1 # beta-ketoacyl-ACP synthase
+   1.1.1.100 hits 2 # 3-oxoacyl-[ACP] reductase
+   2.3.1.179 hits 1 # 3-oxo-cis-vaccenoyl-[acp] synthase
+path PWY-7885 fam0 5 fam-found 1 # phosphatidylinositol mannoside biosynthesis
+   2.4.1.346 hits 2 # phosphatidyl-myo-inositol dimannoside synthase
+path PWY-7417 fam0 1 fam-found 1 # phospholipid remodeling (phosphatidate, yeast)
+   2.3.1.51 hits 2 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+path PHOSLIPSYN-PWY fam0 9 fam-found 4 # superpathway of phospholipid biosynthesis I (bacteria)
+   2.3.1.51 hits 2 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   4.1.1.65 hits 1 # phosphatidylserine decarboxylase
+   2.7.8.5 hits 1 # CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+   3.1.3.27 hits 1 # phosphatidylglycerophosphatase
+path LPSSYN-PWY fam0 18 fam-found 3 # superpathway of lipopolysaccharide biosynthesis
+   5.3.1.13 hits 3 # D-arabinose 5-phosphate isomerase
+   3.6.1.54 hits 1 # UDP-2,3-diacylglucosamine diphosphatase
+   2.3.1.241 hits 2 # lauroyl acyltransferase
+path PPGPPMET-PWY fam0 3 fam-found 2 # ppGpp metabolism
+   2.7.4.6 hits 2 # GDP kinase
+   2.7.6.5 hits 1 # GTP pyrophosphokinase
+path P125-PWY fam0 2 fam-found 1 # superpathway of (R,R)-butanediol biosynthesis
+   2.2.1.6 hits 4 # acetolactate synthase
+path POLYISOPRENSYN-PWY fam0 5 fam-found 2 # polyisoprenoid biosynthesis (E. coli)
+   2.5.1.90 hits 2 # all-trans-octaprenyl-diphosphate synthase
+   2.5.1.31 hits 1 # ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific]
+path PWY66-375 fam0 5 fam-found 1 # leukotriene biosynthesis
+   3.4.13.19 hits 1 # LTE4 dipeptidase
+path PWY-5134 fam0 4 fam-found 1 # superpathway of bitter acids biosynthesis
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY-5189 fam0 4 fam-found 2 # tetrapyrrole biosynthesis II (from glycine)
+   2.3.1.37 hits 1 # 5-aminolevulinate synthase
+   2.5.1.61 hits 1 # hydroxymethylbilane synthase
+path ETOH-ACETYLCOA-ANA-PWY fam0 2 fam-found 1 # ethanol degradation I
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path PWY66-21 fam0 2 fam-found 2 # ethanol degradation II
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-161 fam0 2 fam-found 2 # ethanol degradation III
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-162 fam0 2 fam-found 2 # ethanol degradation IV
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY0-381 fam0 2 fam-found 1 # glycerol and glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY-4261 fam0 2 fam-found 1 # glycerol degradation I
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path PWY-6952 fam0 1 fam-found 1 # glycerophosphodiester degradation
+   3.1.4.46 hits 1 # sn-glycero-3-phospho-N-(arachidonoyl)ethanolamine phosphodiesterase
+path PWY66-389 fam0 2 fam-found 1 # phytol degradation
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+path PWY-5386 fam0 2 fam-found 1 # methylglyoxal degradation I
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-5458 fam0 2 fam-found 1 # methylglyoxal degradation V
+   1.1.2.3 hits 1 # L-lactate dehydrogenase
+path MGLDLCTANA-PWY fam0 2 fam-found 1 # methylglyoxal degradation VI
+   1.1.2.4 hits 1 # D-lactate dehydrogenase (cytochrome)
+path PWY-5386-1 fam0 2 fam-found 2 # methylglyoxal degradation VIII
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+   1.1.2.4 hits 1 # D-lactate dehydrogenase (cytochrome)
+path PWY-5694 fam0 2 fam-found 1 # allantoin degradation to glyoxylate I
+   3.5.3.4 hits 1 # allantoicase
+path PWY-5697 fam0 1 fam-found 1 # allantoin degradation to ureidoglycolate I (urea producing)
+   3.5.3.4 hits 1 # allantoicase
+path PWY-6962 fam0 4 fam-found 1 # superpathway of trimethylamine degradation
+   2.1.1.21 hits 1 # N-methyl-L-glutamate synthase
+path PWY-1722 fam0 3 fam-found 1 # formate assimilation into 5,10-methylenetetrahydrofolate
+   6.3.4.3 hits 1 # formate:tetrahydropteroylpolyglutamate ligase
+path PWY0-1313 fam0 1 fam-found 1 # acetate conversion to acetyl-CoA
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PYRUVDEHYD-PWY fam0 3 fam-found 3 # pyruvate decarboxylation to acetyl CoA I
+   2.3.1.12 hits 3 # dihydrolipoyllysine-residue acetyltransferase
+   1.8.1.4 hits 2 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+   1.2.4.1 hits 4 # pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase
+path P441-PWY fam0 21 fam-found 9 # superpathway of N-acetylneuraminate degradation
+   3.5.99.6 hits 1 # glucosamine-6-phosphate deaminase
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path P221-PWY fam0 4 fam-found 2 # octane oxidation
+   1.14.15.3 hits 1 # alkane hydroxylase
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+path PWY-6313 fam0 4 fam-found 2 # serotonin degradation
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path PWY0-1297 fam0 4 fam-found 2 # superpathway of purine deoxyribonucleosides degradation
+   2.4.2.1 hits 1 # chloro-purine nucleoside phosphorylase
+   5.4.2.7 hits 1 # deoxyribose 1,5-phosphomutase
+path PWY-6471 fam0 2 fam-found 1 # peptidoglycan biosynthesis IV (Enterococcus faecium)
+   3.4.16.4 hits 1 # peptidoglycan D,D transpeptidase
+path PWY-4202 fam0 2 fam-found 1 # arsenate detoxification I (mammalian)
+   2.4.2.1 hits 1 # chloro-purine nucleoside phosphorylase
+path DETOX1-PWY-1 fam0 3 fam-found 1 # reactive oxygen species degradation
+   1.15.1.1 hits 2 # superoxide dismutase
+path DETOX1-PWY fam0 2 fam-found 1 # superoxide radicals degradation
+   1.15.1.1 hits 2 # superoxide dismutase
+path PWY-3821 fam0 3 fam-found 2 # D-galactose detoxification
+   2.7.1.6 hits 1 # galactokinase
+   5.1.3.2 hits 2 # UDP-glucose 4-epimerase
+path PWY0-1561 fam0 2 fam-found 1 # glycerol-3-phosphate to cytochrome bo oxidase electron transfer
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path PWY0-1582 fam0 2 fam-found 1 # glycerol-3-phosphate to fumarate electron transfer
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path PWY0-1591 fam0 2 fam-found 1 # glycerol-3-phosphate to hydrogen peroxide electron transport
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path PWY0-1581 fam0 2 fam-found 1 # nitrate reduction IX (dissimilatory)
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path PWY-8004 fam0 8 fam-found 6 # Entner-Doudoroff pathway I
+   3.1.1.31 hits 1 # 6-phosphogluconolactonase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+path PWY-7383 fam0 2 fam-found 1 # anaerobic energy metabolism (invertebrates, cytosol)
+   1.1.1.37 hits 1 # malate dehydrogenase
+path PWY-5484 fam0 11 fam-found 7 # glycolysis II (from fructose 6-phosphate)
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+path ANAGLYCOLYSIS-PWY fam0 10 fam-found 7 # glycolysis III (from glucose)
+   5.3.1.9 hits 1 # glucose-6-phosphate isomerase
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+path PWY-1042 fam0 5 fam-found 4 # glycolysis IV
+   1.2.1.9 hits 1 # glyceraldehyde 3-phosphate dehydrogenase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+path P341-PWY fam0 9 fam-found 5 # glycolysis V (Pyrococcus)
+   5.3.1.9 hits 1 # glucose-6-phosphate isomerase
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+path PWY-6118 fam0 2 fam-found 1 # glycerol-3-phosphate shuttle
+   1.1.5.3 hits 1 # glycerol-3-phosphate dehydrogenase
+path MALATE-ASPARTATE-SHUTTLE-PWY fam0 2 fam-found 2 # malate/L-aspartate shuttle pathway
+   2.6.1.1 hits 4 # aspartate aminotransferase
+   1.1.1.37 hits 1 # malate dehydrogenase
+path PENTOSE-P-PWY fam0 6 fam-found 4 # pentose phosphate pathway
+   3.1.1.31 hits 1 # 6-phosphogluconolactonase
+   5.1.3.1 hits 1 # pentose-5-phosphate 3-epimerase
+   2.2.1.1 hits 4 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+   2.2.1.2 hits 1 # transaldolase
+path NONOXIPENT-PWY fam0 3 fam-found 2 # pentose phosphate pathway (non-oxidative branch) I
+   2.2.1.1 hits 4 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+   2.2.1.2 hits 1 # transaldolase
+path P21-PWY fam0 1 fam-found 1 # pentose phosphate pathway (partial)
+   2.2.1.1 hits 4 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path PWY-7115 fam0 2 fam-found 1 # C4 photosynthetic carbon assimilation cycle, NAD-ME type
+   2.6.1.1 hits 4 # aspartate aminotransferase
+path PWY-241 fam0 4 fam-found 2 # C4 photosynthetic carbon assimilation cycle, NADP-ME type
+   4.1.1.31 hits 1 # phosphoenolpyruvate carboxylase
+   2.7.9.1 hits 1 # pyruvate orthophosphate dikinase
+path PWY-7117 fam0 6 fam-found 2 # C4 photosynthetic carbon assimilation cycle, PEPCK type
+   4.1.1.31 hits 1 # phosphoenolpyruvate carboxylase
+   2.7.9.1 hits 1 # pyruvate orthophosphate dikinase
+path PWY-181 fam0 9 fam-found 2 # photorespiration
+   1.1.3.15 hits 1 # glycolate oxidase
+   2.1.2.1 hits 3 # 5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+path PWY-5084 fam0 3 fam-found 3 # 2-oxoglutarate decarboxylation to succinyl-CoA
+   1.2.4.2 hits 4 # oxoglutarate dehydrogenase
+   2.3.1.61 hits 1 # dihydrolipoyltranssuccinylase
+   1.8.1.4 hits 2 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+path PWY-5046 fam0 3 fam-found 2 # 2-oxoisovalerate decarboxylation to isobutanoyl-CoA
+   1.2.4.4 hits 2 # 3-methyl-2-oxobutanoate dehydrogenase
+   1.8.1.4 hits 2 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+path PWY-7007 fam0 4 fam-found 2 # methyl ketone biosynthesis (engineered)
+   4.2.1.17 hits 1 # trans-Delta2-decenoyl-CoA hydratase
+   1.1.1.35 hits 4 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+path PWY-5723 fam0 3 fam-found 2 # Rubisco shunt
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+path PWY0-1517 fam0 1 fam-found 1 # sedoheptulose bisphosphate bypass
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+path PWY-5464 fam0 11 fam-found 5 # superpathway of cytosolic glycolysis (plants), pyruvate dehydrogenase and TCA cycle
+   1.2.1.9 hits 1 # glyceraldehyde 3-phosphate dehydrogenase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   1.1.1.37 hits 1 # malate dehydrogenase
+path PWY0-1587 fam0 1 fam-found 1 # N6-L-threonylcarbamoyladenosine37-modified tRNA biosynthesis
+   2.3.1.234 hits 1 # N6-L-threonylcarbamoyladenine synthase
+path PWY-7892 fam0 4 fam-found 1 # tRNA-uridine 2-thiolation and selenation (bacteria)
+   2.8.1.13 hits 1 # tRNA-specific 2-thiouridylase
+path PWY-7800 fam0 5 fam-found 1 # Ac/N-end rule pathway
+   3.4.11.18 hits 2 # methionine aminopeptidase
+path PWY-7884 fam0 3 fam-found 1 # lipoprotein posttranslational modification
+   3.4.23.36 hits 1 # prolipoprotein signal peptidase
+path OANTIGEN-PWY fam0 8 fam-found 6 # O-antigen building blocks biosynthesis (E. coli)
+   2.7.7.24 hits 1 # dTDP-glucose pyrophosphorylase
+   5.3.1.9 hits 1 # glucose-6-phosphate isomerase
+   2.6.1.16 hits 1 # glucosamine-fructose-6-phosphate aminotransferase
+   5.4.2.10 hits 1 # phosphoglucosamine mutase
+   4.2.1.46 hits 3 # dTDP-glucose 4,6-dehydratase
+   5.1.3.13 hits 1 # dTDP-4-dehydrorhamnose 3,5-epimerase
+path P381-PWY fam0 17 fam-found 1 # adenosylcobalamin biosynthesis II (aerobic)
+   6.6.1.2 hits 1 # cobaltochelatase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 5 # glutamine synthetase
+path AMMASSIM-PWY fam0 3 fam-found 2 # ammonia assimilation cycle III
+   6.3.1.2 hits 5 # glutamine synthetase
+   1.4.1.4 hits 1 # glutamate dehydrogenase
+path PWY0-781 fam0 24 fam-found 15 # aspartate superpathway
+   2.7.7.18 hits 2 # nicotinate-mononucleotide adenylyltransferase
+   6.3.5.1 hits 2 # NAD+ synthetase, glutamine dependent
+   6.3.1.5 hits 1 # NAD+ synthetase, NH3-dependent
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   4.3.3.7 hits 1 # 4-hydroxy-tetrahydrodipicolinate synthase
+   1.17.1.8 hits 1 # 4-hydroxy-tetrahydrodipicolinate reductase
+   2.3.1.117 hits 1 # tetrahydrodipicolinate succinylase
+   5.1.1.7 hits 2 # diaminopimelate epimerase
+   4.1.1.20 hits 1 # diaminopimelate decarboxylase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+   2.7.1.39 hits 1 # homoserine kinase
+path PWY-7393 fam0 2 fam-found 1 # beta-carotene biosynthesis (engineered)
+   5.5.1.19 hits 1 # lycopene beta-cyclase
+path P542-PWY fam0 2 fam-found 1 # choline-O-sulfate degradation
+   1.1.99.1 hits 2 # choline dehydrogenase
+path P461-PWY fam0 7 fam-found 4 # hexitol fermentation to lactate, formate, ethanol and acetate
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path ANAEROFRUCAT-PWY fam0 11 fam-found 7 # homolactic fermentation
+   5.3.1.9 hits 1 # glucose-6-phosphate isomerase
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.11 hits 1 # phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   2.7.1.40 hits 1 # pyruvate kinase
+path ARGSYN-PWY fam0 8 fam-found 3 # L-arginine biosynthesis I (via L-ornithine)
+   6.3.5.5 hits 2 # carbamoyl phosphate synthetase
+   3.5.1.16 hits 1 # acetylornithine deacetylase
+   4.3.2.1 hits 2 # argininosuccinate lyase
+path HSERMETANA-PWY fam0 4 fam-found 3 # L-methionine biosynthesis III
+   2.3.1.31 hits 1 # homoserine O-acetyltransferase
+   2.5.1.49 hits 1 # O-acetylhomoserine sulfhydrylase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+path PWY-5430 fam0 10 fam-found 1 # meta cleavage pathway of aromatic compounds
+   1.3.1.25 hits 1 # 1,2-dihyroxy-3,5-cyclohexadiene-1-carboxylate dehydrogenase
+path PWY-7237 fam0 9 fam-found 1 # myo-, chiro- and scyllo-inositol degradation
+   2.7.1.92 hits 1 # 5-dehydro-2-deoxy-D-gluconate kinase
+path PEPTIDOGLYCANSYN-PWY fam0 9 fam-found 5 # peptidoglycan biosynthesis I (meso-diaminopimelate containing)
+   1.3.1.98 hits 1 # UDP-N-acetylenolpyruvoylglucosamine reductase
+   6.3.2.13 hits 1 # UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+   6.3.2.10 hits 3 # D-alanyl-D-alanine-adding enzyme
+   2.7.8.13 hits 1 # phospho-N-acetylmuramoyl-pentapeptide-transferase
+   2.4.1.227 hits 1 # N-acetylglucosaminyl transferase
+path PWY-5265 fam0 16 fam-found 6 # peptidoglycan biosynthesis II (staphylococci)
+   2.5.1.7 hits 3 # UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+   1.3.1.98 hits 1 # UDP-N-acetylenolpyruvoylglucosamine reductase
+   6.3.2.10 hits 3 # D-alanyl-D-alanine-adding enzyme
+   2.7.8.13 hits 1 # phospho-N-acetylmuramoyl-pentapeptide-transferase
+   2.4.1.227 hits 1 # N-acetylglucosaminyl transferase
+   3.4.16.4 hits 1 # peptidoglycan D,D transpeptidase
+path PWY4FS-7 fam0 3 fam-found 2 # phosphatidylglycerol biosynthesis I (plastidic)
+   2.3.1.51 hits 2 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   2.7.8.5 hits 1 # CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+path PWY4FS-8 fam0 3 fam-found 2 # phosphatidylglycerol biosynthesis II (non-plastidic)
+   2.3.1.51 hits 2 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   2.7.8.5 hits 1 # CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+path PWY-5044 fam0 3 fam-found 2 # purine nucleotides degradation I (plants)
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   3.2.2.1 hits 1 # xanthosine nucleosidase
+path PWY-7194 fam0 2 fam-found 1 # pyrimidine nucleobases salvage II
+   2.4.2.9 hits 1 # uracil phosphoribosyltransferase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 4 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 4 # succinate--CoA ligase (ADP-forming)
+path PWY-7229 fam0 5 fam-found 4 # superpathway of adenosine nucleotides de novo biosynthesis I
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.7.4.3 hits 1 # adenylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+path PWY-6126 fam0 5 fam-found 4 # superpathway of adenosine nucleotides de novo biosynthesis II
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.7.4.3 hits 1 # adenylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 5 # glutamine synthetase
+path PWY-7345 fam0 14 fam-found 8 # superpathway of anaerobic sucrose degradation
+   5.3.1.9 hits 1 # glucose-6-phosphate isomerase
+   2.7.1.4 hits 1 # fructokinase
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.2.3 hits 1 # phosphoglycerate kinase
+   5.4.2.12 hits 1 # 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+   4.2.1.11 hits 1 # enolase
+   1.1.1.1 hits 1 # alcohol dehydrogenase
+path PWY-5823 fam0 7 fam-found 1 # superpathway of CDP-glucose-derived O-antigen building blocks biosynthesis
+   1.17.1.1 hits 1 # CDP-4-dehydro-6-deoxyglucose reductase
+path PWY-6928 fam0 15 fam-found 1 # superpathway of cholesterol degradation I (cholesterol oxidase)
+   1.14.14.12 hits 1 # 3-hydroxy-9,10-seconandrost-1,3,5(10)-triene-9,17-dione 4-monooxygenase
+path ALL-CHORISMATE-PWY fam0 52 fam-found 10 # superpathway of chorismate metabolism
+   3.5.4.16 hits 1 # GTP cyclohydrolase
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+   4.2.3.5 hits 2 # chorismate synthase
+   4.1.3.27 hits 1 # anthranilate synthase
+   5.4.99.5 hits 1 # chorismate mutase
+   4.2.1.51 hits 2 # prephenate dehydratase
+   3.1.2.28 hits 2 # 1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+   2.5.1.74 hits 2 # 1,4-dihydroxy-2-naphthoate octaprenyltransferase
+   2.5.1.90 hits 2 # all-trans-octaprenyl-diphosphate synthase
+path PWY-4221 fam0 8 fam-found 4 # superpathway of coenzyme A biosynthesis II (plants)
+   2.1.2.11 hits 1 # ketopantoate hydroxymethyltransferase
+   2.7.1.33 hits 1 # pantothenate kinase
+   2.7.7.3 hits 1 # pantetheine-phosphate adenylyltransferase
+   2.7.1.24 hits 1 # dephospho-CoA kinase
+path COA-PWY-1 fam0 5 fam-found 3 # superpathway of coenzyme A biosynthesis III (mammals)
+   2.7.1.33 hits 1 # pantothenate kinase
+   2.7.7.3 hits 1 # pantetheine-phosphate adenylyltransferase
+   2.7.1.24 hits 1 # dephospho-CoA kinase
+path PWY-7317 fam0 17 fam-found 4 # superpathway of dTDP-glucose-derived O-antigen building blocks biosynthesis
+   2.7.7.24 hits 1 # dTDP-glucose pyrophosphorylase
+   4.2.1.46 hits 3 # dTDP-glucose 4,6-dehydratase
+   5.1.3.13 hits 1 # dTDP-4-dehydrorhamnose 3,5-epimerase
+   1.1.1.133 hits 2 # dTDP-4-dehydrorhamnose reductase
+path ERGOSTEROL-SYN-PWY fam0 19 fam-found 2 # superpathway of ergosterol biosynthesis I
+   4.1.1.33 hits 1 # diphosphomevalonate decarboxylase
+   5.3.3.2 hits 1 # isopentenyl-diphosphate delta-isomerase
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 3 # glyceraldehyde-3-phosphate dehydrogenase
+path PWY-7228 fam0 5 fam-found 5 # superpathway of guanosine nucleotides de novo biosynthesis I
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+   2.7.4.8 hits 2 # guanylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+path PWY-6125 fam0 5 fam-found 4 # superpathway of guanosine nucleotides de novo biosynthesis II
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+   2.7.4.8 hits 2 # guanylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+path PWY-5920 fam0 8 fam-found 2 # superpathway of heme b biosynthesis from glycine
+   2.3.1.37 hits 1 # 5-aminolevulinate synthase
+   2.5.1.61 hits 1 # hydroxymethylbilane synthase
+path PRPP-PWY fam0 37 fam-found 20 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   6.3.5.5 hits 2 # carbamoyl phosphate synthetase
+   2.7.6.1 hits 2 # ribose-phosphate diphosphokinase
+   2.1.3.2 hits 2 # aspartate carbamoyltransferase
+   3.5.2.3 hits 1 # dihydroorotase
+   1.3.5.2 hits 2 # dihydroorotate dehydrogenase
+   4.1.1.23 hits 2 # orotidine-5'-phosphate decarboxylase
+   2.7.4.6 hits 2 # GDP kinase
+   6.3.4.2 hits 3 # CTP synthetase
+   6.3.5.3 hits 1 # phosphoribosylformylglycinamide synthetase
+   6.3.3.1 hits 1 # phosphoribosylformylglycinamide cyclo-ligase
+   6.3.4.18 hits 1 # 5-(carboxyamino)imidazole ribonucleotide synthase
+   5.4.99.18 hits 1 # N5-carboxyaminoimidazole ribonucleotide mutase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.4.2.17 hits 2 # ATP phosphoribosyltransferase
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+   2.7.4.8 hits 2 # guanylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.3 hits 1 # adenylate kinase
+   2.6.1.9 hits 1 # histidinol-phosphate aminotransferase
+path PWY0-1325 fam0 2 fam-found 1 # superpathway of L-asparagine biosynthesis
+   6.3.5.4 hits 2 # L-aspartate:L-glutamine amido-ligase (AMP-forming)
+path PWY-5004 fam0 11 fam-found 2 # superpathway of L-citrulline metabolism
+   2.7.2.11 hits 1 # glutamate 5-kinase
+   4.3.2.1 hits 2 # argininosuccinate lyase
+path PWY-6293 fam0 5 fam-found 3 # superpathway of L-cysteine biosynthesis (fungi)
+   2.5.1.49 hits 1 # O-acetylhomoserine sulfhydrylase
+   4.4.1.1 hits 1 # cystathionine gamma-lyase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+path PWY-6292 fam0 4 fam-found 3 # superpathway of L-cysteine biosynthesis (mammalian)
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+   4.4.1.1 hits 1 # cystathionine gamma-lyase
+path METSYN-PWY fam0 7 fam-found 4 # superpathway of L-homoserine and L-methionine biosynthesis
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+path PWY-3001 fam0 10 fam-found 8 # superpathway of L-isoleucine biosynthesis I
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.7.1.39 hits 1 # homoserine kinase
+   2.2.1.6 hits 4 # acetolactate synthase
+   1.1.1.86 hits 2 # (R)-2,3-dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+   4.2.1.9 hits 2 # 2,3-dihydroxy-3-methylvalerate hydro-lyase
+   2.6.1.42 hits 2 # isoleucine transaminase
+path PWY-5345 fam0 10 fam-found 5 # superpathway of L-methionine biosynthesis (by sulfhydrylation)
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   2.3.1.31 hits 1 # homoserine O-acetyltransferase
+   2.5.1.49 hits 1 # O-acetylhomoserine sulfhydrylase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+path PWY-5347 fam0 8 fam-found 5 # superpathway of L-methionine biosynthesis (transsulfuration)
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+path PWY-5328 fam0 14 fam-found 3 # superpathway of L-methionine salvage and degradation
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+   4.4.1.1 hits 1 # cystathionine gamma-lyase
+path PWY-6628 fam0 10 fam-found 5 # superpathway of L-phenylalanine biosynthesis
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+   4.2.3.5 hits 2 # chorismate synthase
+   5.4.99.5 hits 1 # chorismate mutase
+   4.2.1.51 hits 2 # prephenate dehydratase
+path THRESYN-PWY fam0 5 fam-found 4 # superpathway of L-threonine biosynthesis
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.7.1.39 hits 1 # homoserine kinase
+path PWY-3502 fam0 12 fam-found 3 # superpathway of NAD biosynthesis in eukaryotes
+   2.7.7.1 hits 1 # nicotinamide mononucleotide adenylyltransferase
+   2.7.7.18 hits 2 # nicotinate-mononucleotide adenylyltransferase
+   6.3.5.1 hits 2 # NAD+ synthetase, glutamine dependent
+path PWY-7245 fam0 7 fam-found 3 # superpathway of NAD/NADP - NADH/NADPH interconversion (yeast)
+   2.7.1.23 hits 2 # NAD kinase
+   1.2.1.3 hits 3 # acetaldehyde dehydrogenase
+   1.1.1.42 hits 2 # isocitrate dehydrogenase
+path PWY-5257 fam0 33 fam-found 1 # superpathway of pentose and pentitol degradation
+   2.7.1.17 hits 1 # xylulokinase
+path PWY66-409 fam0 11 fam-found 8 # superpathway of purine nucleotide salvage
+   3.5.4.4 hits 2 # adenosine deaminase
+   2.4.2.1 hits 1 # chloro-purine nucleoside phosphorylase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.7.4.3 hits 1 # adenylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   2.7.4.8 hits 2 # guanylate kinase
+path PWY-841 fam0 17 fam-found 9 # superpathway of purine nucleotides de novo biosynthesis I
+   6.3.5.3 hits 1 # phosphoribosylformylglycinamide synthetase
+   6.3.3.1 hits 1 # phosphoribosylformylglycinamide cyclo-ligase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+   2.7.4.8 hits 2 # guanylate kinase
+   2.7.4.6 hits 2 # GDP kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.3 hits 1 # adenylate kinase
+path DENOVOPURINE2-PWY fam0 18 fam-found 11 # superpathway of purine nucleotides de novo biosynthesis II
+   6.3.5.3 hits 1 # phosphoribosylformylglycinamide synthetase
+   6.3.3.1 hits 1 # phosphoribosylformylglycinamide cyclo-ligase
+   6.3.4.18 hits 1 # 5-(carboxyamino)imidazole ribonucleotide synthase
+   5.4.99.18 hits 1 # N5-carboxyaminoimidazole ribonucleotide mutase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.7.4.3 hits 1 # adenylate kinase
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+   1.1.1.205 hits 2 # IMP dehydrogenase
+   6.3.5.2 hits 1 # xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+   2.7.4.8 hits 2 # guanylate kinase
+path PWY0-845 fam0 8 fam-found 4 # superpathway of pyridoxal 5'-phosphate biosynthesis and salvage
+   2.2.1.7 hits 1 # 1-deoxy-D-xylulose 5-phosphate synthase
+   2.6.1.52 hits 2 # 3-phosphoserine aminotransferase
+   2.6.99.2 hits 1 # pyridoxine 5'-phosphate synthase
+   1.4.3.5 hits 3 # pyridoxamine 5'-phosphate oxidase
+path PWY0-1298 fam0 5 fam-found 1 # superpathway of pyrimidine deoxyribonucleosides degradation
+   5.4.2.7 hits 1 # deoxyribose 1,5-phosphomutase
+path PWY-7211 fam0 14 fam-found 8 # superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis
+   6.3.5.5 hits 2 # carbamoyl phosphate synthetase
+   2.1.3.2 hits 2 # aspartate carbamoyltransferase
+   3.5.2.3 hits 1 # dihydroorotase
+   1.3.5.2 hits 2 # dihydroorotate dehydrogenase
+   4.1.1.23 hits 2 # orotidine-5'-phosphate decarboxylase
+   2.7.4.6 hits 2 # GDP kinase
+   6.3.4.2 hits 3 # CTP synthetase
+   1.17.4.1 hits 5 # CDP reductase
+path PWY0-166 fam0 7 fam-found 4 # superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)
+   1.17.4.1 hits 5 # CDP reductase
+   2.7.4.6 hits 2 # GDP kinase
+   3.5.4.13 hits 1 # dCTP deaminase
+   3.6.1.23 hits 1 # dUTP diphosphatase
+path PWY-7208 fam0 4 fam-found 3 # superpathway of pyrimidine nucleobases salvage
+   2.4.2.9 hits 1 # uracil phosphoribosyltransferase
+   2.7.4.6 hits 2 # GDP kinase
+   6.3.4.2 hits 3 # CTP synthetase
+path PWY0-162 fam0 9 fam-found 8 # superpathway of pyrimidine ribonucleotides de novo biosynthesis
+   6.3.5.5 hits 2 # carbamoyl phosphate synthetase
+   2.1.3.2 hits 2 # aspartate carbamoyltransferase
+   3.5.2.3 hits 1 # dihydroorotase
+   1.3.5.2 hits 2 # dihydroorotate dehydrogenase
+   4.1.1.23 hits 2 # orotidine-5'-phosphate decarboxylase
+   2.7.4.22 hits 2 # UMP kinase
+   2.7.4.6 hits 2 # GDP kinase
+   6.3.4.2 hits 3 # CTP synthetase
+path MET-SAM-PWY fam0 9 fam-found 6 # superpathway of S-adenosyl-L-methionine biosynthesis
+   2.7.2.4 hits 2 # aspartate kinase
+   1.2.1.11 hits 2 # aspartate-semialdehyde dehydrogenase
+   1.1.1.3 hits 1 # homoserine dehydrogenase
+   2.5.1.48 hits 1 # cystathionine gamma-synthase
+   2.1.1.14 hits 1 # cobalamin-independent homocysteine transmethylase
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+path PWY-6676 fam0 7 fam-found 1 # superpathway of sulfide oxidation (phototrophic sulfur bacteria)
+   1.8.99.2 hits 2 # adenylylsulfate reductase
+path PWY-6641 fam0 4 fam-found 1 # superpathway of sulfolactate degradation
+   4.1.1.79 hits 2 # sulfopyruvate decarboxylase
+path THISYN-PWY fam0 9 fam-found 2 # superpathway of thiamine diphosphate biosynthesis I
+   2.2.1.7 hits 1 # 1-deoxy-D-xylulose 5-phosphate synthase
+   2.7.4.16 hits 1 # thiamine monophosphate kinase
+path THISYNARA-PWY fam0 6 fam-found 1 # superpathway of thiamine diphosphate biosynthesis III (eukaryotes)
+   3.1.3.100 hits 1 # thiamine phosphate phosphatase
+path PWY-7332 fam0 18 fam-found 2 # superpathway of UDP-N-acetylglucosamine-derived O-antigen building blocks biosynthesis
+   2.6.1.16 hits 1 # glucosamine-fructose-6-phosphate aminotransferase
+   5.4.2.10 hits 1 # phosphoglucosamine mutase
+path PWY-7622 fam0 2 fam-found 1 # UDP-alpha-D-galactofuranose biosynthesis
+   5.1.3.2 hits 2 # UDP-glucose 4-epimerase
+path PWY-4821 fam0 2 fam-found 1 # UDP-alpha-D-xylose biosynthesis
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase

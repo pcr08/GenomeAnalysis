@@ -1,0 +1,8 @@
+path GLYCOL-GLYOXDEG-PWY fam0 6 fam-found 1 # superpathway of glycol metabolism and degradation
+   2.7.1.165 hits 1 # glycerate 2-kinase
+path PWY-7383 fam0 2 fam-found 1 # anaerobic energy metabolism (invertebrates, cytosol)
+   4.1.1.32 hits 1 # phosphoenolpyruvate carboxykinase (GTP)
+path PWY-7210 fam0 7 fam-found 1 # pyrimidine deoxyribonucleotides biosynthesis from CTP
+   1.17.4.1 hits 1 # CDP reductase
+path PWY-1541 fam0 5 fam-found 1 # superpathway of taurine degradation
+   1.14.11.17 hits 1 # alpha-ketoglutarate-dependent taurine dioxygenase

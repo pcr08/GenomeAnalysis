@@ -1,0 +1,64 @@
+path P101-PWY fam0 4 fam-found 2 # ectoine biosynthesis
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+   2.6.1.76 hits 1 # diaminobutyrate-2-oxoglutarate transaminase
+path HOMOSERSYN-PWY fam0 3 fam-found 2 # L-homoserine biosynthesis
+   2.7.2.4 hits 1 # aspartate kinase
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+path TRNA-CHARGING-PWY fam0 20 fam-found 1 # tRNA charging
+   6.1.1.12 hits 1 # aspartate--tRNA ligase
+path PWY-8088 fam0 4 fam-found 2 # dipicolinate biosynthesis
+   2.7.2.4 hits 1 # aspartate kinase
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+path COLANSYN-PWY fam0 9 fam-found 1 # colanic acid building blocks biosynthesis
+   4.2.1.47 hits 1 # GDP-mannose 4,6-dehydratase
+path ECASYN-PWY fam0 9 fam-found 2 # enterobacterial common antigen biosynthesis
+   5.1.3.14 hits 1 # UDP-N-acetylglucosamine 2-epimerase
+   4.2.1.46 hits 1 # dTDP-glucose 4,6-dehydratase
+path PWY-7039 fam0 4 fam-found 1 # phosphatidate metabolism, as a signaling molecule
+   2.7.1.107 hits 1 # diacylglycerol kinase
+path PHOSLIPSYN-PWY fam0 9 fam-found 1 # superpathway of phospholipid biosynthesis I (bacteria)
+   2.7.7.41 hits 1 # CTP:phosphatidate cytidyltransferase
+path P125-PWY fam0 2 fam-found 1 # superpathway of (R,R)-butanediol biosynthesis
+   2.2.1.6 hits 1 # acetolactate synthase
+path PWY-6627 fam0 9 fam-found 1 # salinosporamide A biosynthesis
+   2.4.2.1 hits 1 # chloro-purine nucleoside phosphorylase
+path PWY-5188 fam0 5 fam-found 1 # tetrapyrrole biosynthesis I (from glutamate)
+   5.4.3.8 hits 1 # glutamate-1-semialdehyde 2,1-aminomutase
+path PYRUVDEHYD-PWY fam0 3 fam-found 1 # pyruvate decarboxylation to acetyl CoA I
+   1.2.4.1 hits 1 # pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase
+path P441-PWY fam0 21 fam-found 1 # superpathway of N-acetylneuraminate degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path PWY-4202 fam0 2 fam-found 1 # arsenate detoxification I (mammalian)
+   2.4.2.1 hits 1 # chloro-purine nucleoside phosphorylase
+path PWY-6969 fam0 9 fam-found 1 # TCA cycle V (2-oxoglutarate synthase)
+   1.1.1.42 hits 1 # isocitrate dehydrogenase
+path PWY-6573 fam0 4 fam-found 1 # chondroitin sulfate degradation (metazoa)
+   3.1.6.12 hits 1 # N-acetylgalactosamine-4-sulfatase
+path PWY-842 fam0 5 fam-found 1 # starch degradation I
+   3.2.1.1 hits 1 # starch glucanohydrolase
+path PWY-7892 fam0 4 fam-found 1 # tRNA-uridine 2-thiolation and selenation (bacteria)
+   2.8.1.13 hits 1 # tRNA-specific 2-thiouridylase
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-5529 fam0 15 fam-found 1 # superpathway of bacteriochlorophyll a biosynthesis
+   6.6.1.1 hits 1 # magnesium chelatase
+path PWY-7373 fam0 4 fam-found 1 # superpathway of demethylmenaquinol-6 biosynthesis II
+   1.21.98.1 hits 1 # dehypoxanthinylfutalosine cyclase
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path PRPP-PWY fam0 37 fam-found 5 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   3.5.2.3 hits 1 # dihydroorotase
+   5.3.1.16 hits 1 # 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase
+   1.1.1.205 hits 1 # IMP dehydrogenase
+   6.3.4.4 hits 1 # adenylosuccinate synthase
+   4.2.1.19 hits 1 # imidazoleglycerol-phosphate dehydratase
+path PWY-6292 fam0 4 fam-found 1 # superpathway of L-cysteine biosynthesis (mammalian)
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+path PWY-3001 fam0 10 fam-found 3 # superpathway of L-isoleucine biosynthesis I
+   2.7.2.4 hits 1 # aspartate kinase
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+   2.2.1.6 hits 1 # acetolactate synthase

@@ -1,0 +1,100 @@
+path BSUBPOLYAMSYN-PWY fam0 2 fam-found 1 # spermidine biosynthesis I
+   2.5.1.16 hits 2 # spermidine synthase
+path SER-GLYSYN-PWY fam0 4 fam-found 1 # superpathway of L-serine and glycine biosynthesis I
+   3.1.3.3 hits 1 # phosphoserine phosphatase
+path TRNA-CHARGING-PWY fam0 20 fam-found 3 # tRNA charging
+   6.1.1.14 hits 1 # glycine--tRNA ligase
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+   6.1.1.9 hits 1 # valine--tRNA ligase
+path NAGLIPASYN-PWY fam0 5 fam-found 1 # lipid IVA biosynthesis (E. coli)
+   2.7.1.130 hits 1 # tetraacyldisaccharide 4'-kinase
+path PWY-7250 fam0 3 fam-found 1 # [2Fe-2S] iron-sulfur cluster biosynthesis
+   2.8.1.7 hits 1 # cysteine desulfurase
+path PWY-6129 fam0 3 fam-found 1 # dolichol and dolichyl phosphate biosynthesis
+   2.5.1.87 hits 1 # cis-prenyltransferase
+path PWY-6664 fam0 2 fam-found 1 # di-myo-inositol phosphate biosynthesis
+   2.7.8.34 hits 1 # CDP-L-myo-inositol myo-inositolphosphotransferase
+path PWY-6519 fam0 6 fam-found 1 # 8-amino-7-oxononanoate biosynthesis I
+   2.3.1.47 hits 1 # 8-amino-7-oxononanoate synthase
+path PWY-7147 fam0 1 fam-found 1 # 8-amino-7-oxononanoate biosynthesis II
+   2.3.1.47 hits 1 # 8-amino-7-oxononanoate synthase
+path PWY-6578 fam0 2 fam-found 1 # 8-amino-7-oxononanoate biosynthesis III
+   2.3.1.47 hits 1 # 8-amino-7-oxononanoate synthase
+path POLYISOPRENSYN-PWY fam0 5 fam-found 1 # polyisoprenoid biosynthesis (E. coli)
+   2.5.1.31 hits 1 # ditrans,polycis-undecaprenyl-diphosphate synthase [(2E,6E)-farnesyl-diphosphate specific]
+path PWY-5121 fam0 11 fam-found 1 # superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)
+   1.17.7.4 hits 1 # isopentenyl-diphosphate:NAD(P)+ oxidoreductase
+path PWY-7255 fam0 4 fam-found 1 # ergothioneine biosynthesis I (bacteria)
+   1.14.99.50 hits 1 # hercynine oxygenase (gamma-glutamyl-hercynylcysteine sulfoxide-forming)
+path PWY-5134 fam0 4 fam-found 1 # superpathway of bitter acids biosynthesis
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY-7218 fam0 21 fam-found 2 # photosynthetic 3-hydroxybutanoate biosynthesis (engineered)
+   2.7.1.40 hits 1 # pyruvate kinase
+   5.1.3.1 hits 1 # pentose-5-phosphate 3-epimerase
+path PWY-5188 fam0 5 fam-found 1 # tetrapyrrole biosynthesis I (from glutamate)
+   1.2.1.70 hits 1 # glutamyl-tRNA reductase
+path PWY-6146 fam0 20 fam-found 1 # Methanobacterium thermoautotrophicum biosynthetic metabolism
+   1.2.7.1 hits 5 # pyruvate synthase
+path PWY66-21 fam0 2 fam-found 1 # ethanol degradation II
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-161 fam0 2 fam-found 1 # ethanol degradation III
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY66-162 fam0 2 fam-found 1 # ethanol degradation IV
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY0-1277 fam0 7 fam-found 1 # 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation
+   4.1.3.39 hits 1 # 4-hydroxy-2-oxovalerate aldolase
+path PWY0-1313 fam0 1 fam-found 1 # acetate conversion to acetyl-CoA
+   6.2.1.1 hits 1 # isovalerate--CoA ligase
+path PWY-6471 fam0 2 fam-found 1 # peptidoglycan biosynthesis IV (Enterococcus faecium)
+   3.4.16.4 hits 2 # peptidoglycan D,D transpeptidase
+path PWY-7383 fam0 2 fam-found 1 # anaerobic energy metabolism (invertebrates, cytosol)
+   1.1.1.37 hits 1 # malate dehydrogenase
+path MALATE-ASPARTATE-SHUTTLE-PWY fam0 2 fam-found 1 # malate/L-aspartate shuttle pathway
+   1.1.1.37 hits 1 # malate dehydrogenase
+path PWY-6969 fam0 9 fam-found 3 # TCA cycle V (2-oxoglutarate synthase)
+   1.1.1.42 hits 2 # isocitrate dehydrogenase
+   6.2.1.5 hits 2 # succinate--CoA ligase (ADP-forming)
+   1.1.1.37 hits 1 # malate dehydrogenase
+path PWY0-1479 fam0 4 fam-found 1 # tRNA processing
+   3.1.13.5 hits 1 # RNase T exonuclease
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   1.4.1.4 hits 1 # glutamate dehydrogenase
+path PWY-5483 fam0 2 fam-found 1 # pyruvate fermentation to acetate III
+   1.2.7.1 hits 5 # pyruvate synthase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 2 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 2 # succinate--CoA ligase (ADP-forming)
+path PWY-7229 fam0 5 fam-found 3 # superpathway of adenosine nucleotides de novo biosynthesis I
+   6.3.4.4 hits 1 # adenylosuccinate synthase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   2.7.4.6 hits 1 # GDP kinase
+path ALL-CHORISMATE-PWY fam0 52 fam-found 2 # superpathway of chorismate metabolism
+   3.5.4.16 hits 1 # GTP cyclohydrolase
+   4.1.3.27 hits 1 # anthranilate synthase
+path PRPP-PWY fam0 37 fam-found 5 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   2.7.6.1 hits 1 # ribose-phosphate diphosphokinase
+   2.7.4.6 hits 1 # GDP kinase
+   6.3.4.2 hits 1 # CTP synthetase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+   6.3.4.4 hits 1 # adenylosuccinate synthase
+path PWY0-1325 fam0 2 fam-found 1 # superpathway of L-asparagine biosynthesis
+   6.3.5.4 hits 1 # L-aspartate:L-glutamine amido-ligase (AMP-forming)
+path PWY-6292 fam0 4 fam-found 1 # superpathway of L-cysteine biosynthesis (mammalian)
+   3.3.1.1 hits 1 # adenosylhomocysteinase
+path PWY-3001 fam0 10 fam-found 3 # superpathway of L-isoleucine biosynthesis I
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+   4.2.3.1 hits 2 # threonine synthase
+   2.6.1.42 hits 1 # isoleucine transaminase
+path PWY-7208 fam0 4 fam-found 2 # superpathway of pyrimidine nucleobases salvage
+   2.7.4.6 hits 1 # GDP kinase
+   6.3.4.2 hits 1 # CTP synthetase
+path PWY-6676 fam0 7 fam-found 1 # superpathway of sulfide oxidation (phototrophic sulfur bacteria)
+   1.8.99.2 hits 1 # adenylylsulfate reductase
+path PWY-7328 fam0 6 fam-found 2 # superpathway of UDP-glucose-derived O-antigen building blocks biosynthesis
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase
+   5.1.3.2 hits 2 # UDP-glucose 4-epimerase
+path PWY-7622 fam0 2 fam-found 1 # UDP-alpha-D-galactofuranose biosynthesis
+   5.1.3.2 hits 2 # UDP-glucose 4-epimerase
+path PWY-4821 fam0 2 fam-found 1 # UDP-alpha-D-xylose biosynthesis
+   1.1.1.22 hits 1 # UDP-glucose dehydrogenase

@@ -1,0 +1,16 @@
+path PWY-8051 any n/a  naive 1  minpath 1  fam0  9  fam-found  1  name  anandamide biosynthesis I
+path PWY-7411 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  phosphatidate biosynthesis (yeast)
+path PHOSLIPSYN-PWY any n/a  naive 1  minpath 0  fam0  9  fam-found  1  name  superpathway of phospholipid biosynthesis I (bacteria)
+path PHOSLIPSYN2-PWY any n/a  naive 1  minpath 0  fam0  14  fam-found  1  name  superpathway of phospholipid biosynthesis II (plants)
+path TRIGLSYN-PWY any n/a  naive 1  minpath 0  fam0  6  fam-found  1  name  diacylglycerol and triacylglycerol biosynthesis
+path PWY0-381 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  glycerol and glycerophosphodiester degradation
+path PWY-6952 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  glycerophosphodiester degradation
+path PWY-7750 any n/a  naive 1  minpath 1  fam0  1  fam-found  1  name  carbon monoxide oxidation to CO2
+path PWY-5505 any n/a  naive 1  minpath 1  fam0  6  fam-found  1  name  L-glutamate and L-glutamine biosynthesis
+path PWY-6963 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  ammonia assimilation cycle I
+path AMMASSIM-PWY any n/a  naive 1  minpath 0  fam0  3  fam-found  1  name  ammonia assimilation cycle III
+path ARGSYN-PWY any n/a  naive 1  minpath 1  fam0  8  fam-found  1  name  L-arginine biosynthesis I (via L-ornithine)
+path PWY-6277 any n/a  naive 1  minpath 1  fam0  5  fam-found  1  name  superpathway of 5-aminoimidazole ribonucleotide biosynthesis
+path PWY-3282 any n/a  naive 1  minpath 1  fam0  2  fam-found  1  name  superpathway of ammonia assimilation (plants)
+path PWY-841 any n/a  naive 1  minpath 0  fam0  17  fam-found  1  name  superpathway of purine nucleotides de novo biosynthesis I
+path FOLSYN-PWY any n/a  naive 1  minpath 0  fam0  10  fam-found  1  name  superpathway of tetrahydrofolate biosynthesis and salvage

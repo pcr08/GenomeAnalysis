@@ -1,0 +1,37 @@
+path SER-GLYSYN-PWY fam0 4 fam-found 1 # superpathway of L-serine and glycine biosynthesis I
+   2.1.2.1 hits 1 # 5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+path TRNA-CHARGING-PWY fam0 20 fam-found 2 # tRNA charging
+   6.1.1.7 hits 1 # alanine--tRNA ligase
+   6.1.1.5 hits 1 # isoleucine--tRNA ligase
+path PWY-6981 fam0 9 fam-found 1 # chitin biosynthesis
+   2.6.1.16 hits 1 # glucosamine-fructose-6-phosphate aminotransferase
+path PWY-7027 fam0 3 fam-found 1 # hentriaconta-3,6,9,12,15,19,22,25,28-nonaene biosynthesis
+   6.1.3.1 hits 1 # 3-[(3Z,6Z,9Z,12Z)-pentadeca-3,6,9,12-tetraen-1-yl]-4-[(2Z,5Z,8Z,11Z)-tetradeca-2,5,8,11-tetraen-1-yl]oxetan-2-one synthetase
+path PWY-7250 fam0 3 fam-found 1 # [2Fe-2S] iron-sulfur cluster biosynthesis
+   2.8.1.7 hits 1 # cysteine desulfurase
+path PYRUVDEHYD-PWY fam0 3 fam-found 1 # pyruvate decarboxylation to acetyl CoA I
+   1.8.1.4 hits 1 # lipoate acetyltransferase N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+path PWY-6471 fam0 2 fam-found 1 # peptidoglycan biosynthesis IV (Enterococcus faecium)
+   3.4.16.4 hits 1 # peptidoglycan D,D transpeptidase
+path PWY-7389 fam0 8 fam-found 1 # superpathway of anaerobic energy metabolism (invertebrates)
+   1.1.1.38 hits 1 # NAD+-dependent malate dehydrogenase
+path PWY-6969 fam0 9 fam-found 2 # TCA cycle V (2-oxoglutarate synthase)
+   1.1.1.42 hits 1 # isocitrate dehydrogenase
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-7893 fam0 2 fam-found 1 # protein Pupylation and dePupylation
+   6.3.1.19 hits 1 # prokaryotic ubiquitin-like protein ligase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path HEXITOLDEGSUPER-PWY fam0 15 fam-found 2 # superpathway of hexitol degradation (bacteria)
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+   2.7.1.40 hits 1 # pyruvate kinase
+path PRPP-PWY fam0 37 fam-found 2 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   1.17.4.1 hits 1 # CDP reductase
+   2.6.1.9 hits 1 # histidinol-phosphate aminotransferase
+path PWY-3001 fam0 10 fam-found 2 # superpathway of L-isoleucine biosynthesis I
+   4.2.3.1 hits 1 # threonine synthase
+   1.1.1.86 hits 1 # (R)-2,3-dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)

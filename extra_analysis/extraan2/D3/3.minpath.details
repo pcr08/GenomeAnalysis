@@ -1,0 +1,50 @@
+path P101-PWY fam0 4 fam-found 1 # ectoine biosynthesis
+   1.2.1.11 hits 1 # aspartate-semialdehyde dehydrogenase
+path COMPLETE-ARO-PWY fam0 18 fam-found 1 # superpathway of aromatic amino acid biosynthesis
+   4.2.3.5 hits 1 # chorismate synthase
+path TRNA-CHARGING-PWY fam0 20 fam-found 5 # tRNA charging
+   6.1.1.6 hits 1 # lysine--tRNA ligase
+   6.1.1.15 hits 1 # proline--tRNA ligase
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+   6.1.1.7 hits 1 # alanine--tRNA ligase
+   6.1.1.4 hits 1 # leucine--tRNA ligase
+path CALVIN-PWY fam0 11 fam-found 1 # Calvin-Benson-Bassham cycle
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path COLANSYN-PWY fam0 9 fam-found 1 # colanic acid building blocks biosynthesis
+   5.1.3.2 hits 1 # UDP-glucose 4-epimerase
+path PWY-7094 fam0 6 fam-found 2 # fatty acid salvage
+   1.3.8.7 hits 1 # medium-chain acyl-CoA dehydrogenase
+   2.3.1.16 hits 1 # acetyl-CoA C-octanoyltransferase
+path PWY-5386 fam0 2 fam-found 1 # methylglyoxal degradation I
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-5386-1 fam0 2 fam-found 1 # methylglyoxal degradation VIII
+   3.1.2.6 hits 1 # hydroxyacylglutathione hydrolase
+path PWY-7750 fam0 1 fam-found 1 # carbon monoxide oxidation to CO2
+   1.2.5.3 hits 1 # carbon monoxide dehydrogenase
+path PYRUVDEHYD-PWY fam0 3 fam-found 1 # pyruvate decarboxylation to acetyl CoA I
+   1.2.4.1 hits 1 # pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase
+path P21-PWY fam0 1 fam-found 1 # pentose phosphate pathway (partial)
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path PWY-5046 fam0 3 fam-found 1 # 2-oxoisovalerate decarboxylation to isobutanoyl-CoA
+   2.3.1.168 hits 1 # dihydrolipoyllysine-residue (2-methylpropanoyl)transferase
+path PWY66-398 fam0 8 fam-found 1 # TCA cycle III (animals)
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY0-1479 fam0 4 fam-found 1 # tRNA processing
+   3.1.26.5 hits 1 # ribonuclease
+path PWY-7210 fam0 7 fam-found 1 # pyrimidine deoxyribonucleotides biosynthesis from CTP
+   3.6.1.15 hits 1 # CTP triphosphatase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PRPP-PWY fam0 37 fam-found 4 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   6.3.5.5 hits 2 # carbamoyl phosphate synthetase
+   2.4.2.10 hits 1 # orotate phosphoribosyltransferase
+   5.4.99.18 hits 1 # N5-carboxyaminoimidazole ribonucleotide mutase
+   6.3.2.6 hits 1 # phosphoribosylaminoimidazole-succinocarboxamide synthase
+path PWY0-1325 fam0 2 fam-found 1 # superpathway of L-asparagine biosynthesis
+   6.3.5.4 hits 1 # L-aspartate:L-glutamine amido-ligase (AMP-forming)
+path PWY-5327 fam0 31 fam-found 1 # superpathway of L-lysine degradation
+   1.4.3.3 hits 1 # D-amino acid oxidase
+path PWY-7622 fam0 2 fam-found 1 # UDP-alpha-D-galactofuranose biosynthesis
+   5.1.3.2 hits 1 # UDP-glucose 4-epimerase

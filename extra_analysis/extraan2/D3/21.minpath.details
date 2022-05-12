@@ -1,0 +1,64 @@
+path PWY-5083 fam0 3 fam-found 1 # NAD(P)/NADPH interconversion
+   2.7.1.23 hits 1 # NAD kinase
+path TRNA-CHARGING-PWY fam0 20 fam-found 1 # tRNA charging
+   6.1.1.3 hits 1 # threonine--tRNA ligase
+path PWY-6163 fam0 5 fam-found 3 # chorismate biosynthesis from 3-dehydroquinate
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+   2.5.1.19 hits 1 # 3-phosphoshikimate 1-carboxyvinyltransferase
+path PWY-6707 fam0 2 fam-found 1 # gallate biosynthesis
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+path PANTOSYN-PWY fam0 8 fam-found 1 # superpathway of coenzyme A biosynthesis I (bacteria)
+   4.1.1.11 hits 1 # aspartate 1-decarboxylase
+path PWY66-5 fam0 19 fam-found 1 # superpathway of cholesterol biosynthesis
+   2.3.3.10 hits 1 # hydroxymethylglutaryl-CoA synthase
+path PWY-1722 fam0 3 fam-found 1 # formate assimilation into 5,10-methylenetetrahydrofolate
+   6.3.4.3 hits 1 # formate:tetrahydropteroylpolyglutamate ligase
+path PYRUVDEHYD-PWY fam0 3 fam-found 1 # pyruvate decarboxylation to acetyl CoA I
+   1.2.4.1 hits 1 # pyruvate:[dihydrolipoyllysine-residue acetyltransferase]-lipoyllysine 2-oxidoreductase
+path P441-PWY fam0 21 fam-found 1 # superpathway of N-acetylneuraminate degradation
+   2.7.9.2 hits 1 # phosphoenolpyruvate synthetase
+path P221-PWY fam0 4 fam-found 1 # octane oxidation
+   1.14.15.3 hits 1 # alkane hydroxylase
+path PWY-6502 fam0 2 fam-found 1 # 8-oxo-(d)GTP detoxification I
+   3.6.1.55 hits 1 # 8-oxo-dGTP diphosphatase
+path DETOX1-PWY-1 fam0 3 fam-found 1 # reactive oxygen species degradation
+   1.15.1.1 hits 1 # superoxide dismutase
+path DETOX1-PWY fam0 2 fam-found 1 # superoxide radicals degradation
+   1.15.1.1 hits 1 # superoxide dismutase
+path PWY-7117 fam0 6 fam-found 1 # C4 photosynthetic carbon assimilation cycle, PEPCK type
+   4.1.1.49 hits 1 # phosphoenolpyruvate carboxykinase (ATP)
+path PWY-6969 fam0 9 fam-found 3 # TCA cycle V (2-oxoglutarate synthase)
+   1.1.1.42 hits 1 # isocitrate dehydrogenase
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+   4.2.1.2 hits 2 # fumarase
+path PWY-7904 fam0 4 fam-found 1 # tRNA-uridine 2-thiolation (thermophilic bacteria)
+   2.8.1.15 hits 1 # tRNA-5-methyluridine54 2-sulfurtransferase
+path PWY0-781 fam0 24 fam-found 3 # aspartate superpathway
+   1.4.3.16 hits 1 # L-aspartate oxidase
+   2.5.1.72 hits 1 # quinolinate synthase
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-6277 fam0 5 fam-found 1 # superpathway of 5-aminoimidazole ribonucleotide biosynthesis
+   6.3.5.3 hits 1 # phosphoribosylformylglycinamide synthetase
+path PWY-6594 fam0 11 fam-found 3 # superpathway of Clostridium acetobutylicum solventogenic fermentation
+   1.1.1.35 hits 2 # (S)-3-hydroxydecanoyl-CoA dehydrogenase
+   1.3.8.1 hits 1 # butyryl-CoA dehydrogenase
+   1.1.1.2 hits 1 # trans-2-hexenal reductase
+path PWY-4221 fam0 8 fam-found 1 # superpathway of coenzyme A biosynthesis II (plants)
+   2.1.2.11 hits 1 # ketopantoate hydroxymethyltransferase
+path PWY-6629 fam0 13 fam-found 4 # superpathway of L-tryptophan biosynthesis
+   4.2.1.10 hits 1 # 3-dehydroquinate dehydratase
+   1.1.1.25 hits 1 # shikimate dehydrogenase
+   2.5.1.19 hits 1 # 3-phosphoshikimate 1-carboxyvinyltransferase
+   4.1.3.27 hits 1 # anthranilate synthase
+path PWY-7211 fam0 14 fam-found 4 # superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis
+   2.1.3.2 hits 1 # aspartate carbamoyltransferase
+   3.5.2.3 hits 1 # dihydroorotase
+   3.6.1.15 hits 1 # CTP triphosphatase
+   1.17.4.1 hits 1 # CDP reductase
+path SULFATE-CYS-PWY fam0 9 fam-found 1 # superpathway of sulfate assimilation and cysteine biosynthesis
+   2.5.1.47 hits 1 # O-acetylserine sulfhydrylase

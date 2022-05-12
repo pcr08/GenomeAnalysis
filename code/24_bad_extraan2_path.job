@@ -1,0 +1,81 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J preparation_pathway
+#SBATCH -t 48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user paula.camargo-romera.7482@student.uu.se
+
+#script for differential expression
+#load the necessary modules
+
+module load bioinfo-tools
+#preparation, get a file with contig name and EC value
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D1/normalize
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f3 -d ".")
+echo $bin
+#to get the contig name
+val1=$(grep 'em_EC=[^;]' $f | cut -f9 | cut -f1 -d ';'| sed 's/ID=//g')
+IFS=" " read -ra val3 <<< $val1
+#get EC value
+val2=$(grep 'em_EC=[^;]' $f | cut -f9 | awk -F "em_EC" '{print $2}' | cut -d ';' -f1 | sed 's/=//g')
+IFS=" " read -ra val4 <<< $val2
+
+length3=${#val3[@]}
+echo "length $length3"
+for (( i=0; i<$length3; i++ ));
+do
+#echo ${val3[$i]}	${val4[$i]} 
+echo ${val3[$i]}	${val4[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1/path.${bin}.ec
+done
+done
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/functann/D3/normalize
+for f in *.gff
+do
+echo $f
+bin=$(echo $f | cut -f3 -d ".")
+echo $bin
+#to get the contig name
+val1=$(grep 'em_EC=[^;]' $f | cut -f9 | cut -f1 -d ';'| sed 's/ID=//g')
+IFS=" " read -ra val3 <<< $val1
+#get EC value
+val2=$(grep 'em_EC=[^;]' $f | cut -f9 | awk -F "em_EC" '{print $2}' | cut -d ';' -f1 | sed 's/=//g')
+IFS=" " read -ra val4 <<< $val2
+
+length3=${#val3[@]}
+echo "length $length3"
+for (( i=0; i<$length3; i++ ));
+do
+#echo ${val3[$i]}        ${val4[$i]}
+echo ${val3[$i]}        ${val4[$i]} >> /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3/path.${bin}.ec
+done
+done
+
+
+#run MinPath python ../MinPath.py -ec demo.ec -report demo.ec.minpath -details demo.ec.minpath.details
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D1 
+for f in *.ec
+do
+echo $f
+bin=$(echo $f | cut -f2 -d ".")
+echo $bin
+python /home/pcr98/GenomeAnalysis/GenomeAnalysis/MinPath/MinPath.py -ec $f -report report.${bin}.minpath -details ${bin}.minpath.details
+done
+
+cd /proj/genomeanalysis2022/nobackup/work/pcr/output/extraan2/D3
+for f in *.ec
+do
+echo $f
+bin=$(echo $f | cut -f2 -d ".")
+echo $bin
+python /home/pcr98/GenomeAnalysis/GenomeAnalysis/MinPath/MinPath.py -ec $f -report report.${bin}.minpath -details ${bin}.minpath.details
+done
+
+

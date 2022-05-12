@@ -1,0 +1,94 @@
+path BRANCHED-CHAIN-AA-SYN-PWY fam0 7 fam-found 3 # superpathway of branched chain amino acid biosynthesis
+   2.2.1.6 hits 2 # acetolactate synthase
+   4.2.1.9 hits 1 # 2,3-dihydroxy-3-methylvalerate hydro-lyase
+   2.3.3.13 hits 1 # 2-isopropylmalate synthase
+path P4-PWY fam0 17 fam-found 1 # superpathway of L-lysine, L-threonine and L-methionine biosynthesis I
+   4.1.1.20 hits 1 # diaminopimelate decarboxylase
+path PWY-821 fam0 9 fam-found 1 # superpathway of sulfur amino acid biosynthesis (Saccharomyces cerevisiae)
+   4.2.1.22 hits 1 # cystathionine beta-synthase
+path TRNA-CHARGING-PWY fam0 20 fam-found 2 # tRNA charging
+   6.1.1.20 hits 1 # phenylalanine--tRNA ligase
+   6.1.1.4 hits 1 # leucine--tRNA ligase
+path PWY-7250 fam0 3 fam-found 1 # [2Fe-2S] iron-sulfur cluster biosynthesis
+   2.8.1.7 hits 1 # cysteine desulfurase
+path PWY-7417 fam0 1 fam-found 1 # phospholipid remodeling (phosphatidate, yeast)
+   2.3.1.51 hits 1 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+path P125-PWY fam0 2 fam-found 1 # superpathway of (R,R)-butanediol biosynthesis
+   2.2.1.6 hits 2 # acetolactate synthase
+path PWY-5807 fam0 1 fam-found 1 # heptaprenyl diphosphate biosynthesis
+   2.5.1.30 hits 1 # heptaprenyl diphosphate synthase
+path PWY-5121 fam0 11 fam-found 1 # superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)
+   2.2.1.7 hits 1 # 1-deoxy-D-xylulose 5-phosphate synthase
+path PWY66-21 fam0 2 fam-found 1 # ethanol degradation II
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+path PWY66-161 fam0 2 fam-found 1 # ethanol degradation III
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+path PWY66-162 fam0 2 fam-found 1 # ethanol degradation IV
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+path PWY0-381 fam0 2 fam-found 1 # glycerol and glycerophosphodiester degradation
+   2.7.1.30 hits 1 # glycerol kinase
+path PWY-4261 fam0 2 fam-found 1 # glycerol degradation I
+   2.7.1.30 hits 1 # glycerol kinase
+path PWY66-389 fam0 2 fam-found 1 # phytol degradation
+   1.2.1.3 hits 1 # acetaldehyde dehydrogenase
+path 3-HYDROXYPHENYLACETATE-DEGRADATION-PWY fam0 6 fam-found 1 # 4-hydroxyphenylacetate degradation
+   4.1.2.52 hits 1 # 4-hydroxy-2-ketopimelate aldolase
+path PWY-7750 fam0 1 fam-found 1 # carbon monoxide oxidation to CO2
+   1.2.5.3 hits 2 # carbon monoxide dehydrogenase
+path PWY0-1297 fam0 4 fam-found 1 # superpathway of purine deoxyribonucleosides degradation
+   4.1.2.4 hits 1 # deoxyribose-phosphate aldolase
+path PWY-7383 fam0 2 fam-found 1 # anaerobic energy metabolism (invertebrates, cytosol)
+   4.1.1.32 hits 1 # phosphoenolpyruvate carboxykinase (GTP)
+path P21-PWY fam0 1 fam-found 1 # pentose phosphate pathway (partial)
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+path PWY66-398 fam0 8 fam-found 1 # TCA cycle III (animals)
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY0-1517 fam0 1 fam-found 1 # sedoheptulose bisphosphate bypass
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+path PWY-7801 fam0 1 fam-found 1 # N-end rule pathway I (prokaryotic)
+   2.3.2.6 hits 1 # leucyl-tRNA--protein transferase
+path PWY-5505 fam0 6 fam-found 1 # L-glutamate and L-glutamine biosynthesis
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6963 fam0 2 fam-found 1 # ammonia assimilation cycle I
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-7124 fam0 21 fam-found 4 # ethene biosynthesis V (engineered)
+   4.1.2.13 hits 1 # sedoheptulose-1,7-bisphosphate aldolase
+   2.2.1.1 hits 1 # sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycoaldehyde transferase
+   5.1.3.1 hits 1 # pentose-5-phosphate 3-epimerase
+   4.2.1.11 hits 1 # enolase
+path PWY-7527 fam0 11 fam-found 2 # L-methionine salvage cycle III
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+   5.3.1.23 hits 1 # 5-methylthioribose-1-phosphate isomerase
+path PEPTIDOGLYCANSYN-PWY fam0 9 fam-found 1 # peptidoglycan biosynthesis I (meso-diaminopimelate containing)
+   6.3.2.13 hits 1 # UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+path PWY4FS-7 fam0 3 fam-found 2 # phosphatidylglycerol biosynthesis I (plastidic)
+   2.3.1.51 hits 1 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   2.7.7.41 hits 1 # CTP:phosphatidate cytidyltransferase
+path PWY4FS-8 fam0 3 fam-found 2 # phosphatidylglycerol biosynthesis II (non-plastidic)
+   2.3.1.51 hits 1 # 1-acyl-sn-glycerol-3-phosphate acyltransferase delta
+   2.7.7.41 hits 1 # CTP:phosphatidate cytidyltransferase
+path PWY-6353 fam0 7 fam-found 1 # purine nucleotides degradation II (aerobic)
+   3.5.4.4 hits 1 # adenosine deaminase
+path PWY-5537 fam0 2 fam-found 1 # pyruvate fermentation to acetate V
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-5538 fam0 1 fam-found 1 # pyruvate fermentation to acetate VI
+   6.2.1.5 hits 1 # succinate--CoA ligase (ADP-forming)
+path PWY-3282 fam0 2 fam-found 1 # superpathway of ammonia assimilation (plants)
+   6.3.1.2 hits 1 # glutamine synthetase
+path PWY-6358 fam0 5 fam-found 1 # superpathway of D-myo-inositol (1,4,5)-trisphosphate metabolism
+   3.1.3.25 hits 1 # myo-inositol-4-phosphate monophosphatase
+path PWY-6901 fam0 1 fam-found 1 # superpathway of glucose and xylose degradation
+   1.2.1.12 hits 1 # glyceraldehyde-3-phosphate dehydrogenase
+path PRPP-PWY fam0 37 fam-found 4 # superpathway of histidine, purine, and pyrimidine biosynthesis
+   6.3.5.5 hits 1 # carbamoyl phosphate synthetase
+   6.3.4.2 hits 2 # CTP synthetase
+   2.4.2.14 hits 1 # amidophosphoribosyltransferase
+   4.3.2.2 hits 1 # adenylosuccinate lyase
+path PWY-5004 fam0 11 fam-found 1 # superpathway of L-citrulline metabolism
+   1.2.1.41 hits 1 # glutamate-5-semialdehyde dehydrogenase
+path PWY-6292 fam0 4 fam-found 2 # superpathway of L-cysteine biosynthesis (mammalian)
+   2.5.1.6 hits 1 # methionine adenosyltransferase
+   4.2.1.22 hits 1 # cystathionine beta-synthase
+path PWY-6630 fam0 10 fam-found 2 # superpathway of L-tyrosine biosynthesis
+   4.2.3.5 hits 1 # chorismate synthase
+   1.3.1.12 hits 1 # prephenate dehydrogenase

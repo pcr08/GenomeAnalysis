@@ -1,0 +1,8 @@
+I forgot to update the notebook these last weeks:
+
+I got to finish all the analyses:
+- Differential expression (BWA, SAMTOOLS and HTseq)
+- Extra analysis 1: Which genes are expressed and which function has, comparing between samples
+- Extra analysis 2: which pathways are impplied in the expressed genes
+
+The code script that has "bad" before is because I did the analysis with all the bins together and when I looked for the differential expression I got no results.
